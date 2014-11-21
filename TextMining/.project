@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TextMining</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>git_metamap_code</name>
+			<type>2</type>
+			<location>C:/Letao_Qi/Git_Repository/TextMining/metamap_code</location>
+		</link>
+		<link>
+			<name>git_utsapi2_0ws2_0</name>
+			<type>2</type>
+			<location>C:/Letao_Qi/Git_Repository/TextMining/utsapi2_0ws2_0</location>
+		</link>
+		<link>
+			<name>metamap_src</name>
+			<type>2</type>
+			<location>C:/Dropbox/Workspace/TextMining/metamap_code</location>
+		</link>
+		<link>
+			<name>utsws</name>
+			<type>2</type>
+			<location>C:/Dropbox/Workspace/TextMining/utsapi2_0ws2_0</location>
+		</link>
+	</linkedResources>
+</projectDescription>

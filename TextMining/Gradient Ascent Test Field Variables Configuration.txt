@@ -1,0 +1,85 @@
+/*
+	 * weights
+	 */
+	public static double[][] wordIndexLabelIndexMatrix;
+	public static double[][] labelIndexLabelIndexMatrix;
+	public static double[][] labelIndexPredictedNodeMatrix;
+	public static double[][] predictedNodeObservedNodeMatrix;
+
+	/*
+	 * counts
+	 */
+	public static double[][] aggregateWordIndexLabelIndexMatrix;
+	public static double[][] aggregateLabelIndexLabelIndexMatrix;
+	public static double[][] aggregateLabelIndexPredictedNodeMatrix;
+	public static double[][] aggregatePredictedNodeObservedNodeMatrix;
+
+	/*
+	 * gradients
+	 */
+	public static double[][] gradientWordIndexLabelIndexMatrix;
+	public static double[][] gradientLabelIndexLabelIndexMatrix;
+	public static double[][] gradientLabelIndexPredictedNodeMatrix;
+	public static double[][] gradientPredictedNodeObservedNodeMatrix;
+
+	/*
+	 * Sizes of labels
+	 */
+	public static int numOfAllCUIs;
+	public static int numOfAbstractLabels = 10;
+	public static int numOfPredictedValues = 2;
+	public static int numOfObservedValues = 2;
+
+	public static int numberOfKeyWords = 10;
+
+	/*
+	 * IO
+	 */
+	public static String inputFile = "synthetic_normal";
+
+	public static boolean printCollections = false;
+	public static boolean printWeightMatrices = true;
+	public static boolean printWordLabelMatrices = true;
+	public static boolean printWeightsRelatedStuff = false;
+
+	public static int maximizationPrintoutInterval = 1;
+
+	/*
+	 * Distribution
+	 */
+	public static EnumeratedIntegerDistribution labelDistribution;
+	public static EnumeratedIntegerDistribution predictionDistribution;
+	public static EnumeratedIntegerDistribution observationDistribution;
+
+	/*
+	 * Flags
+	 */
+	public static boolean isObservedVariableLatent = false;
+	public static boolean isSyntheticData = true;
+	public static boolean isLabelMatrixSymmetric = false;
+	public static boolean isInitialWeightsUniform = false;
+
+	/*
+	 * 
+	 * Algorithm parameters
+	 */
+	public static int numOfExpectationSamples = 10;
+	public static double stepSize = 7;
+	public static int initialBurnInSteps = 10;
+	public static int samplingGap = 1;
+	public static int emBurnInSteps = 10;
+	public static int maxEStep = 20;
+	public static int maxMStep = 100;
+	public static double expectationTerminalPercentage = 0.01;
+	public static double maximizationTerminalPercentage = 0.01;
+
+	/*
+	 * Misc
+	 */
+	// how many relations are instances of treat relationship
+	public static int treatRelation;
+	/*
+	 * 0: initial, 1: first increasing phase, 2: first decreasing phase, 3:
+	 * second increasing phase, 4: closing phase, 5: ...
+	 */
+	public static int maxPhase;

@@ -1,0 +1,2 @@
+URL of abstracts source
+http://trec.nist.gov/data/t9_filtering.html

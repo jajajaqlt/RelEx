@@ -1,0 +1,3172 @@
+initial burn-in starts. time(s): 1413841612
+initial burn-in terminates. time(s): 1413841614
+This is start of EM iteration #0.
+inside-em burn-in starts. time(s): 1413841614
+inside-em burn-in terminates. time(s): 1413841614
+word-label aggregate array: 
+Keywords to labels: 
+1.0 0.0 
+Other words to labels: 
+0.0 1.0 
+word-label matrix:
+[(1.0) (0.0) ] [(0.0) (1.0) ] 
+label-label matrix:
+[(1.0) (1.0) ] [(1.0) (1.0) ] 
+label-prediction matrix:
+[(0.3) (1.0) ] [(1.0) (0.3) ] 
+prediction-observation matrix:
+[(3.0) (1.0) ] [(1.0) (3.0) ] 
+example#0
+1
+1
+1 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 0 0 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 1 1 0 0 1 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+1 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 1 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+1 1 1 1 1 0 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 1 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 1 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+1 1 1 0 1 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 1 0 0 1 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(43.0) (15.0) ] [(9.0) (43.0) ] 
+label-label count matrix
+[(30.0) (15.0) ] [(16.0) (38.0) ] 
+label-prediction count matrix:
+[(16.0) (36.0) ] [(44.0) (14.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: 2.0
+current expectation log likelihood is: -2273.2259044249736
+expectation log likelihood percentage change is: 113761.29522124869
+Maximization iteration #0
+current maximization log likelihood is: -3496.825002978424
+maximization log likelihood percentage change is: -53.826550901590544
+Maximization iteration #1
+current maximization log likelihood is: -2661.092892648359
+maximization log likelihood percentage change is: 23.89974075391904
+Maximization iteration #2
+current maximization log likelihood is: -47122.137283804645
+maximization log likelihood percentage change is: -1670.7813738477953
+Maximization iteration #3
+current maximization log likelihood is: -95301.56011047501
+maximization log likelihood percentage change is: -102.24371304828124
+Maximization iteration #4
+current maximization log likelihood is: -29814.217692113987
+maximization log likelihood percentage change is: 68.71591854576893
+Maximization iteration #5
+current maximization log likelihood is: -32743.2150549276
+maximization log likelihood percentage change is: -9.824163065624724
+Maximization iteration #6
+current maximization log likelihood is: -28128.42461537998
+maximization log likelihood percentage change is: 14.093883058844984
+Maximization iteration #7
+current maximization log likelihood is: -26746.990329613218
+maximization log likelihood percentage change is: 4.9111683453876225
+Maximization iteration #8
+current maximization log likelihood is: -22826.88210346828
+maximization log likelihood percentage change is: 14.656259182195717
+Maximization iteration #9
+current maximization log likelihood is: -12916.006233226146
+maximization log likelihood percentage change is: 43.41756278986647
+Maximization iteration #10
+current maximization log likelihood is: -11730.48333933452
+maximization log likelihood percentage change is: 9.178711069695012
+Maximization iteration #11
+current maximization log likelihood is: -10680.594387851794
+maximization log likelihood percentage change is: 8.950091152359004
+Maximization iteration #12
+current maximization log likelihood is: -9747.61069816633
+maximization log likelihood percentage change is: 8.73531618003065
+Maximization iteration #13
+current maximization log likelihood is: -8902.405329550134
+maximization log likelihood percentage change is: 8.670897872185147
+Maximization iteration #14
+current maximization log likelihood is: -8142.02209318903
+maximization log likelihood percentage change is: 8.541323476219757
+Maximization iteration #15
+current maximization log likelihood is: -7474.710350109075
+maximization log likelihood percentage change is: 8.1958969828659
+Maximization iteration #16
+current maximization log likelihood is: -6844.61336531889
+maximization log likelihood percentage change is: 8.429717745263405
+Maximization iteration #17
+current maximization log likelihood is: -6237.233646913428
+maximization log likelihood percentage change is: 8.873835321115529
+Maximization iteration #18
+current maximization log likelihood is: -5643.622303781013
+maximization log likelihood percentage change is: 9.517221523778744
+Maximization iteration #19
+current maximization log likelihood is: -5067.011374299349
+maximization log likelihood percentage change is: 10.21703612403964
+Maximization iteration #20
+current maximization log likelihood is: -4512.469959385095
+maximization log likelihood percentage change is: 10.944151768179811
+Maximization iteration #21
+current maximization log likelihood is: -3991.4545940104863
+maximization log likelihood percentage change is: 11.546123742962404
+Maximization iteration #22
+current maximization log likelihood is: -3528.290169186729
+maximization log likelihood percentage change is: 11.603900631082572
+Maximization iteration #23
+current maximization log likelihood is: -3141.0126987901085
+maximization log likelihood percentage change is: 10.97634978491262
+Maximization iteration #24
+current maximization log likelihood is: -2836.529153088146
+maximization log likelihood percentage change is: 9.693801805361916
+Maximization iteration #25
+current maximization log likelihood is: -2879.819111474032
+maximization log likelihood percentage change is: -1.5261594734098232
+Maximization iteration #26
+current maximization log likelihood is: -6864.081852170457
+maximization log likelihood percentage change is: -138.3511459043372
+Maximization iteration #27
+current maximization log likelihood is: -107525.03812732427
+maximization log likelihood percentage change is: -1466.488285586576
+Maximization iteration #28
+current maximization log likelihood is: -14728.309938783917
+maximization log likelihood percentage change is: 86.30243690651511
+Maximization iteration #29
+current maximization log likelihood is: -23141.69182245114
+maximization log likelihood percentage change is: -57.12387856200897
+Maximization iteration #30
+current maximization log likelihood is: -30251.241571135248
+maximization log likelihood percentage change is: -30.721823638610164
+Maximization iteration #31
+current maximization log likelihood is: -42958.77470680921
+maximization log likelihood percentage change is: -42.00664989498836
+Maximization iteration #32
+current maximization log likelihood is: -26454.90417949856
+maximization log likelihood percentage change is: 38.41792658181819
+Maximization iteration #33
+current maximization log likelihood is: -13704.4105929109
+maximization log likelihood percentage change is: 48.19708852496528
+Maximization iteration #34
+current maximization log likelihood is: -12454.506786971622
+maximization log likelihood percentage change is: 9.12044919747103
+Maximization iteration #35
+current maximization log likelihood is: -11349.480256472722
+maximization log likelihood percentage change is: 8.872503338749985
+Maximization iteration #36
+current maximization log likelihood is: -10425.10023371591
+maximization log likelihood percentage change is: 8.14469034588283
+Maximization iteration #37
+current maximization log likelihood is: -9594.32209869762
+maximization log likelihood percentage change is: 7.969018200241984
+Maximization iteration #38
+current maximization log likelihood is: -8813.154412528316
+maximization log likelihood percentage change is: 8.141978955192078
+Maximization iteration #39
+current maximization log likelihood is: -8088.920934903701
+maximization log likelihood percentage change is: 8.217641989740734
+Maximization iteration #40
+current maximization log likelihood is: -7415.034751770156
+maximization log likelihood percentage change is: 8.330977500666693
+Maximization iteration #41
+current maximization log likelihood is: -6783.472289819513
+maximization log likelihood percentage change is: 8.517323021309814
+Maximization iteration #42
+current maximization log likelihood is: -6179.658895696886
+maximization log likelihood percentage change is: 8.901243615733744
+Maximization iteration #43
+current maximization log likelihood is: -5596.4526949225165
+maximization log likelihood percentage change is: 9.437514442431066
+Maximization iteration #44
+current maximization log likelihood is: -5038.632084818216
+maximization log likelihood percentage change is: 9.967396143817913
+Maximization iteration #45
+current maximization log likelihood is: -4506.403264687718
+maximization log likelihood percentage change is: 10.562962549580558
+Maximization iteration #46
+current maximization log likelihood is: -4013.168666858255
+maximization log likelihood percentage change is: 10.945194401363509
+Maximization iteration #47
+current maximization log likelihood is: -3581.286606600717
+maximization log likelihood percentage change is: 10.761622451209883
+Maximization iteration #48
+current maximization log likelihood is: -3256.27738385973
+maximization log likelihood percentage change is: 9.075208394155275
+Maximization iteration #49
+current maximization log likelihood is: -3260.655207780021
+maximization log likelihood percentage change is: -0.1344425982255234
+Maximization iteration #50
+current maximization log likelihood is: -4148.97621933756
+maximization log likelihood percentage change is: -27.243635249687802
+Maximization iteration #51
+current maximization log likelihood is: -13271.288113585135
+maximization log likelihood percentage change is: -219.8689848288423
+Maximization iteration #52
+current maximization log likelihood is: -90266.67426133665
+maximization log likelihood percentage change is: -580.1651315891131
+Maximization iteration #53
+current maximization log likelihood is: -16785.35807097981
+maximization log likelihood percentage change is: 81.40470089505737
+Maximization iteration #54
+current maximization log likelihood is: -12538.421487863097
+maximization log likelihood percentage change is: 25.301435722477905
+Maximization iteration #55
+current maximization log likelihood is: -9170.758008761746
+maximization log likelihood percentage change is: 26.85875157699214
+Maximization iteration #56
+current maximization log likelihood is: -7754.177754368378
+maximization log likelihood percentage change is: 15.446708473170553
+Maximization iteration #57
+current maximization log likelihood is: -6754.982334845765
+maximization log likelihood percentage change is: 12.885897785354594
+Maximization iteration #58
+current maximization log likelihood is: -5953.747131891495
+maximization log likelihood percentage change is: 11.861395977619004
+Maximization iteration #59
+current maximization log likelihood is: -5255.080191789027
+maximization log likelihood percentage change is: 11.734911218516986
+Maximization iteration #60
+current maximization log likelihood is: -4647.615272671719
+maximization log likelihood percentage change is: 11.55957467721351
+Maximization iteration #61
+current maximization log likelihood is: -4094.476981031541
+maximization log likelihood percentage change is: 11.901550777936963
+Maximization iteration #62
+current maximization log likelihood is: -3595.8091725239715
+maximization log likelihood percentage change is: 12.179035584221012
+Maximization iteration #63
+current maximization log likelihood is: -3174.483845488178
+maximization log likelihood percentage change is: 11.717121427221256
+Maximization iteration #64
+current maximization log likelihood is: -2844.0511841633374
+maximization log likelihood percentage change is: 10.40902009296651
+Maximization iteration #65
+current maximization log likelihood is: -2775.044176286523
+maximization log likelihood percentage change is: 2.4263630788738744
+Maximization iteration #66
+current maximization log likelihood is: -4672.140731296987
+maximization log likelihood percentage change is: -68.36275152740447
+Maximization iteration #67
+current maximization log likelihood is: -32705.920938002168
+maximization log likelihood percentage change is: -600.0200297674467
+Maximization iteration #68
+current maximization log likelihood is: -71586.01003092482
+maximization log likelihood percentage change is: -118.87783000094797
+Maximization iteration #69
+current maximization log likelihood is: -18708.044203474838
+maximization log likelihood percentage change is: 73.86634037098443
+Maximization iteration #70
+current maximization log likelihood is: -13049.25778505071
+maximization log likelihood percentage change is: 30.247878168756216
+Maximization iteration #71
+current maximization log likelihood is: -9787.50969961522
+maximization log likelihood percentage change is: 24.995659823443468
+Maximization iteration #72
+current maximization log likelihood is: -8797.5476211896
+maximization log likelihood percentage change is: 10.11454505597618
+Maximization iteration #73
+current maximization log likelihood is: -7945.3099506357985
+maximization log likelihood percentage change is: 9.687218611935885
+Maximization iteration #74
+current maximization log likelihood is: -7165.330781607914
+maximization log likelihood percentage change is: 9.816850115022497
+Maximization iteration #75
+current maximization log likelihood is: -6408.049054835949
+maximization log likelihood percentage change is: 10.56869180018552
+Maximization iteration #76
+current maximization log likelihood is: -5703.0042932702
+maximization log likelihood percentage change is: 11.002486958705079
+Maximization iteration #77
+current maximization log likelihood is: -5070.619676249982
+maximization log likelihood percentage change is: 11.088622496154525
+Maximization iteration #78
+current maximization log likelihood is: -4488.683217755078
+maximization log likelihood percentage change is: 11.476633935307888
+Maximization iteration #79
+current maximization log likelihood is: -3952.330065991993
+maximization log likelihood percentage change is: 11.94900877926803
+Maximization iteration #80
+current maximization log likelihood is: -3479.3054741859946
+maximization log likelihood percentage change is: 11.96824617144606
+Maximization iteration #81
+current maximization log likelihood is: -3115.5101243888894
+maximization log likelihood percentage change is: 10.455976127885622
+Maximization iteration #82
+current maximization log likelihood is: -3157.9915075458307
+maximization log likelihood percentage change is: -1.3635450202645092
+Maximization iteration #83
+current maximization log likelihood is: -4853.718719169121
+maximization log likelihood percentage change is: -53.69638289309684
+Maximization iteration #84
+current maximization log likelihood is: -25542.67664639345
+maximization log likelihood percentage change is: -426.24962681739305
+Maximization iteration #85
+current maximization log likelihood is: -73478.66972759216
+maximization log likelihood percentage change is: -187.6702028718949
+Maximization iteration #86
+current maximization log likelihood is: -17805.802359895868
+maximization log likelihood percentage change is: 75.76738606468054
+Maximization iteration #87
+current maximization log likelihood is: -10913.935906055343
+maximization log likelihood percentage change is: 38.70573375206682
+Maximization iteration #88
+current maximization log likelihood is: -9370.666195122902
+maximization log likelihood percentage change is: 14.140358933903896
+Maximization iteration #89
+current maximization log likelihood is: -8447.861500476194
+maximization log likelihood percentage change is: 9.847802444686318
+Maximization iteration #90
+current maximization log likelihood is: -7622.34548738098
+maximization log likelihood percentage change is: 9.771893313457864
+Maximization iteration #91
+current maximization log likelihood is: -6839.815813774161
+maximization log likelihood percentage change is: 10.266258265284876
+Maximization iteration #92
+current maximization log likelihood is: -6070.879792166064
+maximization log likelihood percentage change is: 11.242057425868072
+Maximization iteration #93
+current maximization log likelihood is: -5348.043515754294
+maximization log likelihood percentage change is: 11.906614875565921
+Maximization iteration #94
+current maximization log likelihood is: -4718.791066363936
+maximization log likelihood percentage change is: 11.76603083981466
+Maximization iteration #95
+current maximization log likelihood is: -4169.139900937662
+maximization log likelihood percentage change is: 11.648135246848462
+Maximization iteration #96
+current maximization log likelihood is: -3684.5723737691605
+maximization log likelihood percentage change is: 11.622721680784075
+Maximization iteration #97
+current maximization log likelihood is: -3333.2878206938085
+maximization log likelihood percentage change is: 9.533930058646206
+Maximization iteration #98
+current maximization log likelihood is: -3450.6430858972135
+maximization log likelihood percentage change is: -3.5207060270894353
+Maximization iteration #99
+current maximization log likelihood is: -5413.25823381388
+maximization log likelihood percentage change is: -56.87679366022754
+reaching maximum maximization step: 100
+This is end of EM iteration #0.
+This is start of EM iteration #1.
+inside-em burn-in starts. time(s): 1413841655
+inside-em burn-in terminates. time(s): 1413841655
+word-label aggregate array: 
+Keywords to labels: 
+5.281899703049104 -4.281899703044181 
+Other words to labels: 
+-0.2523176708988557 1.2523176709027204 
+word-label matrix:
+[(5.281899703049104) (-4.281899703044181) ] [(-0.2523176708988557) (1.2523176709027204) ] 
+label-label matrix:
+[(-0.29776041518989027) (2.145719509204455) ] [(-0.31038106667113285) (2.462421972663389) ] 
+label-prediction matrix:
+[(-2.172695433496742) (7.50227746564738) ] [(-1.2786798869076308) (-1.4509021452345359) ] 
+prediction-observation matrix:
+[(26.74219213329059) (-23.217329665331317) ] [(-22.74219213329052) (27.2173296653314) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(12.0) (40.0) ] 
+label-label count matrix
+[(54.0) (5.0) ] [(5.0) (35.0) ] 
+label-prediction count matrix:
+[(10.0) (60.0) ] [(40.0) (0.0) ] 
+prediction-observation count matrix:
+[(5.0) (0.0) ] [(1.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -2273.2259044249736
+current expectation log likelihood is: -167.01388313570925
+expectation log likelihood percentage change is: 92.65300105851307
+Maximization iteration #0
+current maximization log likelihood is: -1314.5766897578253
+maximization log likelihood percentage change is: -687.1062363657812
+Maximization iteration #1
+current maximization log likelihood is: -5641.111747061633
+maximization log likelihood percentage change is: -329.12001947188435
+Maximization iteration #2
+current maximization log likelihood is: -76003.93052470403
+maximization log likelihood percentage change is: -1247.3218388962653
+Maximization iteration #3
+current maximization log likelihood is: -48554.01105479384
+maximization log likelihood percentage change is: 36.116447242143586
+Maximization iteration #4
+current maximization log likelihood is: -1541.0542579882863
+maximization log likelihood percentage change is: 96.82610308703602
+Maximization iteration #5
+current maximization log likelihood is: -1192.3306617576545
+maximization log likelihood percentage change is: 22.628898004270166
+Maximization iteration #6
+current maximization log likelihood is: -852.4258356995626
+maximization log likelihood percentage change is: 28.507597511333543
+Maximization iteration #7
+current maximization log likelihood is: -561.0113021428399
+maximization log likelihood percentage change is: 34.186497094796145
+Maximization iteration #8
+current maximization log likelihood is: -298.4403403587365
+maximization log likelihood percentage change is: 46.803150093623216
+Maximization iteration #9
+current maximization log likelihood is: -152.96182705056447
+maximization log likelihood percentage change is: 48.74626303310785
+Maximization iteration #10
+current maximization log likelihood is: -135.66088879007935
+maximization log likelihood percentage change is: 11.310624744803784
+Maximization iteration #11
+current maximization log likelihood is: -131.62451049071586
+maximization log likelihood percentage change is: 2.975344135928044
+Maximization iteration #12
+current maximization log likelihood is: -129.68462464945367
+maximization log likelihood percentage change is: 1.4738028912928236
+Maximization iteration #13
+current maximization log likelihood is: -128.49359656449252
+maximization log likelihood percentage change is: 0.9184034639268738
+Maximization iteration #14
+current maximization log likelihood is: -127.65321258142069
+maximization log likelihood percentage change is: 0.6540279092040451
+Maximization iteration #15
+current maximization log likelihood is: -127.00446317036068
+maximization log likelihood percentage change is: 0.5082123653145193
+Maximization iteration #16
+current maximization log likelihood is: -126.47159757306588
+maximization log likelihood percentage change is: 0.4195644656834055
+Maximization iteration #17
+current maximization log likelihood is: -126.01401146935206
+maximization log likelihood percentage change is: 0.3618093805207634
+Maximization iteration #18
+current maximization log likelihood is: -125.60801286774466
+maximization log likelihood percentage change is: 0.32218528469442204
+Maximization iteration #19
+current maximization log likelihood is: -125.23886240494551
+maximization log likelihood percentage change is: 0.2938908548675483
+Maximization iteration #20
+current maximization log likelihood is: -124.89691788788753
+maximization log likelihood percentage change is: 0.273033873425282
+Maximization iteration #21
+current maximization log likelihood is: -124.57561111206803
+maximization log likelihood percentage change is: 0.2572575698848803
+Maximization iteration #22
+current maximization log likelihood is: -124.27031631950058
+maximization log likelihood percentage change is: 0.2450678666892582
+Maximization iteration #23
+current maximization log likelihood is: -123.97768355872
+maximization log likelihood percentage change is: 0.23548082072006224
+Maximization iteration #24
+current maximization log likelihood is: -123.69522856379291
+maximization log likelihood percentage change is: 0.22782728860497944
+Maximization iteration #25
+current maximization log likelihood is: -123.42107103395028
+maximization log likelihood percentage change is: 0.2216395353530029
+Maximization iteration #26
+current maximization log likelihood is: -123.15376228765513
+maximization log likelihood percentage change is: 0.21658274722119908
+Maximization iteration #27
+current maximization log likelihood is: -122.89216863726773
+maximization log likelihood percentage change is: 0.21241222803764787
+Maximization iteration #28
+current maximization log likelihood is: -122.63539056435394
+maximization log likelihood percentage change is: 0.20894583907271044
+Maximization iteration #29
+current maximization log likelihood is: -122.38270551315674
+maximization log likelihood percentage change is: 0.20604578338632656
+Maximization iteration #30
+current maximization log likelihood is: -122.13352663437547
+maximization log likelihood percentage change is: 0.20360628385885557
+Maximization iteration #31
+current maximization log likelihood is: -121.88737252807749
+maximization log likelihood percentage change is: 0.20154507372482358
+Maximization iteration #32
+current maximization log likelihood is: -121.6438447149929
+maximization log likelihood percentage change is: 0.1997974097181389
+Maximization iteration #33
+current maximization log likelihood is: -121.40261063068169
+maximization log likelihood percentage change is: 0.19831178871105615
+Maximization iteration #34
+current maximization log likelihood is: -121.16339062755759
+maximization log likelihood percentage change is: 0.1970468360452587
+Maximization iteration #35
+current maximization log likelihood is: -120.92594792627881
+maximization log likelihood percentage change is: 0.1959690134527947
+Maximization iteration #36
+current maximization log likelihood is: -120.69008076560306
+maximization log likelihood percentage change is: 0.19505090902371622
+Maximization iteration #37
+current maximization log likelihood is: -120.45561621035824
+maximization log likelihood percentage change is: 0.1942699464259831
+Maximization iteration #38
+current maximization log likelihood is: -120.22240522363239
+maximization log likelihood percentage change is: 0.19360740002241308
+Maximization iteration #39
+current maximization log likelihood is: -119.99031871259126
+maximization log likelihood percentage change is: 0.19304763584576007
+Maximization iteration #40
+current maximization log likelihood is: -119.75924433116461
+maximization log likelihood percentage change is: 0.19257752117496765
+Maximization iteration #41
+current maximization log likelihood is: -119.52908387615645
+maximization log likelihood percentage change is: 0.1921859613373217
+Maximization iteration #42
+current maximization log likelihood is: -119.29975115252176
+maximization log likelihood percentage change is: 0.19186353329060454
+Maximization iteration #43
+current maximization log likelihood is: -119.0711702122382
+maximization log likelihood percentage change is: 0.19160219369722645
+Maximization iteration #44
+current maximization log likelihood is: -118.84327389290854
+maximization log likelihood percentage change is: 0.19139504459681184
+Maximization iteration #45
+current maximization log likelihood is: -118.61600259836842
+maximization log likelihood percentage change is: 0.1912361441211341
+Maximization iteration #46
+current maximization log likelihood is: -118.38930327595574
+maximization log likelihood percentage change is: 0.19112035260561314
+Maximization iteration #47
+current maximization log likelihood is: -118.16312855449934
+maximization log likelihood percentage change is: 0.19104320677452405
+Maximization iteration #48
+current maximization log likelihood is: -117.93743601440616
+maximization log likelihood percentage change is: 0.1910008162902386
+Maximization iteration #49
+current maximization log likelihood is: -117.71218756693986
+maximization log likelihood percentage change is: 0.19098977820645935
+Maximization iteration #50
+current maximization log likelihood is: -117.48734892411329
+maximization log likelihood percentage change is: 0.19100710595384107
+Maximization iteration #51
+current maximization log likelihood is: -117.26288914421531
+maximization log likelihood percentage change is: 0.19105017004253422
+Maximization iteration #52
+current maximization log likelihood is: -117.03878024073157
+maximization log likelihood percentage change is: 0.19111664834397796
+Maximization iteration #53
+current maximization log likelihood is: -116.81499684459965
+maximization log likelihood percentage change is: 0.1912044842501191
+Maximization iteration #54
+current maximization log likelihood is: -116.59151591155234
+maximization log likelihood percentage change is: 0.19131185128961817
+Maximization iteration #55
+current maximization log likelihood is: -116.3683164677197
+maximization log likelihood percentage change is: 0.19143712309389876
+Maximization iteration #56
+current maximization log likelihood is: -116.14537938779421
+maximization log likelihood percentage change is: 0.1915788478278182
+Maximization iteration #57
+current maximization log likelihood is: -115.92268720102902
+maximization log likelihood percentage change is: 0.19173572632764557
+Maximization iteration #58
+current maximization log likelihood is: -115.70022392112242
+maximization log likelihood percentage change is: 0.19190659333217303
+Maximization iteration #59
+current maximization log likelihood is: -115.47797489661633
+maximization log likelihood percentage change is: 0.19209040136136663
+Maximization iteration #60
+current maximization log likelihood is: -115.25592667902868
+maximization log likelihood percentage change is: 0.19228620677358432
+Maximization iteration #61
+current maximization log likelihood is: -115.03406690630874
+maximization log likelihood percentage change is: 0.19249315771655362
+Maximization iteration #62
+current maximization log likelihood is: -114.81238419962602
+maximization log likelihood percentage change is: 0.19271048363722243
+Maximization iteration #63
+current maximization log likelihood is: -114.59086807173037
+maximization log likelihood percentage change is: 0.19293748617788556
+Maximization iteration #64
+current maximization log likelihood is: -114.36950884543342
+maximization log likelihood percentage change is: 0.1931735312087784
+Maximization iteration #65
+current maximization log likelihood is: -114.14829758093072
+maximization log likelihood percentage change is: 0.1934180418678363
+Maximization iteration #66
+current maximization log likelihood is: -113.92722601091134
+maximization log likelihood percentage change is: 0.19367049242467854
+Maximization iteration #67
+current maximization log likelihood is: -113.70628648245952
+maximization log likelihood percentage change is: 0.1939304029316591
+Maximization iteration #68
+current maximization log likelihood is: -113.48547190498493
+maximization log likelihood percentage change is: 0.19419733447072654
+Maximization iteration #69
+current maximization log likelihood is: -113.2647757034897
+maximization log likelihood percentage change is: 0.19447088494288173
+Maximization iteration #70
+current maximization log likelihood is: -113.0441917764839
+maximization log likelihood percentage change is: 0.19475068540572651
+Maximization iteration #71
+current maximization log likelihood is: -112.82371445812282
+maximization log likelihood percentage change is: 0.19503639673678644
+Maximization iteration #72
+current maximization log likelihood is: -112.60333848402797
+maximization log likelihood percentage change is: 0.1953277067266276
+Maximization iteration #73
+current maximization log likelihood is: -112.38305896039952
+maximization log likelihood percentage change is: 0.19562432747914832
+Maximization iteration #74
+current maximization log likelihood is: -112.16287133608773
+maximization log likelihood percentage change is: 0.19592599307105396
+Maximization iteration #75
+current maximization log likelihood is: -111.94277137728926
+maximization log likelihood percentage change is: 0.19623245747601975
+Maximization iteration #76
+current maximization log likelihood is: -111.72275514459699
+maximization log likelihood percentage change is: 0.1965434927019416
+Maximization iteration #77
+current maximization log likelihood is: -111.50281897214819
+maximization log likelihood percentage change is: 0.19685888713015098
+Maximization iteration #78
+current maximization log likelihood is: -111.28295944869268
+maximization log likelihood percentage change is: 0.19717844399111487
+Maximization iteration #79
+current maximization log likelihood is: -111.06317340033348
+maximization log likelihood percentage change is: 0.19750198004082525
+Maximization iteration #80
+current maximization log likelihood is: -110.84345787482278
+maximization log likelihood percentage change is: 0.19782932432403197
+Maximization iteration #81
+current maximization log likelihood is: -110.62381012722625
+maximization log likelihood percentage change is: 0.19816031708842652
+Maximization iteration #82
+current maximization log likelihood is: -110.40422760683163
+maximization log likelihood percentage change is: 0.1984948087957617
+Maximization iteration #83
+current maximization log likelihood is: -110.18470794518561
+maximization log likelihood percentage change is: 0.19883265922367133
+Maximization iteration #84
+current maximization log likelihood is: -109.96524894513982
+maximization log likelihood percentage change is: 0.19917373666313454
+Maximization iteration #85
+current maximization log likelihood is: -109.74584857081044
+maximization log likelihood percentage change is: 0.19951791719112813
+Maximization iteration #86
+current maximization log likelihood is: -109.52650493837456
+maximization log likelihood percentage change is: 0.1998650840030223
+Maximization iteration #87
+current maximization log likelihood is: -109.30721630759473
+maximization log likelihood percentage change is: 0.20021512683456158
+Maximization iteration #88
+current maximization log likelihood is: -109.08798107402612
+maximization log likelihood percentage change is: 0.20056794141722037
+Maximization iteration #89
+current maximization log likelihood is: -108.86879776182298
+maximization log likelihood percentage change is: 0.20092342900214347
+Maximization iteration #90
+current maximization log likelihood is: -108.64966501709569
+maximization log likelihood percentage change is: 0.20128149592199596
+Maximization iteration #91
+current maximization log likelihood is: -108.43058160173894
+maximization log likelihood percentage change is: 0.20164205321965534
+Maximization iteration #92
+current maximization log likelihood is: -108.21154638771247
+maximization log likelihood percentage change is: 0.2020050162886422
+Maximization iteration #93
+current maximization log likelihood is: -107.99255835168015
+maximization log likelihood percentage change is: 0.20237030459551308
+Maximization iteration #94
+current maximization log likelihood is: -107.77361657001319
+maximization log likelihood percentage change is: 0.20273784139270726
+Maximization iteration #95
+current maximization log likelihood is: -107.55472021407473
+maximization log likelihood percentage change is: 0.2031075535042963
+Maximization iteration #96
+current maximization log likelihood is: -107.3358685457618
+maximization log likelihood percentage change is: 0.20347937113065656
+Maximization iteration #97
+current maximization log likelihood is: -107.11706091326732
+maximization log likelihood percentage change is: 0.20385322768519606
+Maximization iteration #98
+current maximization log likelihood is: -106.89829674702185
+maximization log likelihood percentage change is: 0.20422905966642543
+Maximization iteration #99
+current maximization log likelihood is: -106.67957555578272
+maximization log likelihood percentage change is: 0.20460680655814073
+reaching maximum maximization step: 100
+This is end of EM iteration #1.
+This is start of EM iteration #2.
+inside-em burn-in starts. time(s): 1413841747
+inside-em burn-in terminates. time(s): 1413841747
+word-label aggregate array: 
+Keywords to labels: 
+32.74701797811405 -31.747017978107493 
+Other words to labels: 
+-18.06659312583034 19.0665931258345 
+word-label matrix:
+[(32.74701797811405) (-31.747017978107493) ] [(-18.06659312583034) (19.0665931258345) ] 
+label-label matrix:
+[(8.655264988488625) (-5.227414004185335) ] [(-7.11543727629828) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.954536839330998) (12.025888012953304) ] [(5.867080202379051) (-18.247505054652873) ] 
+prediction-observation matrix:
+[(30.461874584956682) (-25.70971288078596) ] [(-26.4618745849566) (29.709712880786043) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -167.01388313570925
+current expectation log likelihood is: -0.3599227423750335
+expectation log likelihood percentage change is: 99.78449531522922
+Maximization iteration #0
+current maximization log likelihood is: -0.3525439955080856
+maximization log likelihood percentage change is: 2.0500918664537786
+Maximization iteration #1
+current maximization log likelihood is: -0.3454625439798633
+maximization log likelihood percentage change is: 2.008671717133202
+Maximization iteration #2
+current maximization log likelihood is: -0.3386607537983082
+maximization log likelihood percentage change is: 1.9688936760540974
+Maximization iteration #3
+current maximization log likelihood is: -0.3321223595559104
+maximization log likelihood percentage change is: 1.930661929103175
+Maximization iteration #4
+current maximization log likelihood is: -0.3258323341038931
+maximization log likelihood percentage change is: 1.8938879816546677
+Maximization iteration #5
+current maximization log likelihood is: -0.31977677287756023
+maximization log likelihood percentage change is: 1.85848996324657
+Maximization iteration #6
+current maximization log likelihood is: -0.3139427909327992
+maximization log likelihood percentage change is: 1.8243920258069577
+Maximization iteration #7
+current maximization log likelihood is: -0.30831843111928947
+maximization log likelihood percentage change is: 1.791523798587127
+Maximization iteration #8
+current maximization log likelihood is: -0.3028925820136692
+maximization log likelihood percentage change is: 1.7598198998103338
+Maximization iteration #9
+current maximization log likelihood is: -0.29765490440229314
+maximization log likelihood percentage change is: 1.729219506319797
+Maximization iteration #10
+current maximization log likelihood is: -0.2925957653163209
+maximization log likelihood percentage change is: 1.699665959185601
+Maximization iteration #11
+current maximization log likelihood is: -0.2877061787201569
+maximization log likelihood percentage change is: 1.6711064122469268
+Maximization iteration #12
+current maximization log likelihood is: -0.2829777520595371
+maximization log likelihood percentage change is: 1.6434915237670256
+Maximization iteration #13
+current maximization log likelihood is: -0.2784026380502951
+maximization log likelihood percentage change is: 1.6167751619849822
+Maximization iteration #14
+current maximization log likelihood is: -0.27397349107957325
+maximization log likelihood percentage change is: 1.5909141528758357
+Maximization iteration #15
+current maximization log likelihood is: -0.2696834277268181
+maximization log likelihood percentage change is: 1.5658680465217554
+Maximization iteration #16
+current maximization log likelihood is: -0.2655259909628285
+maximization log likelihood percentage change is: 1.5415989032151347
+Maximization iteration #17
+current maximization log likelihood is: -0.2614951176121849
+maximization log likelihood percentage change is: 1.5180711070984574
+Maximization iteration #18
+current maximization log likelihood is: -0.25758510877869867
+maximization log likelihood percentage change is: 1.4952511806683344
+Maximization iteration #19
+current maximization log likelihood is: -0.253790602860704
+maximization log likelihood percentage change is: 1.4731076404167023
+Maximization iteration #20
+current maximization log likelihood is: -0.25010655097048584
+maximization log likelihood percentage change is: 1.451610835346878
+Maximization iteration #21
+current maximization log likelihood is: -0.2465281944307094
+maximization log likelihood percentage change is: 1.430732832023548
+Maximization iteration #22
+current maximization log likelihood is: -0.2430510442297873
+maximization log likelihood percentage change is: 1.4104472751896149
+Maximization iteration #23
+current maximization log likelihood is: -0.23967086216845246
+maximization log likelihood percentage change is: 1.390729289827332
+Maximization iteration #24
+current maximization log likelihood is: -0.2363836435737312
+maximization log likelihood percentage change is: 1.371555375976757
+Maximization iteration #25
+current maximization log likelihood is: -0.23318560143769673
+maximization log likelihood percentage change is: 1.352903309080673
+Maximization iteration #26
+current maximization log likelihood is: -0.23007315180728938
+maximization log likelihood percentage change is: 1.334752064972137
+Maximization iteration #27
+current maximization log likelihood is: -0.22704290036546126
+maximization log likelihood percentage change is: 1.3170817272787525
+Maximization iteration #28
+current maximization log likelihood is: -0.22409163002646437
+maximization log likelihood percentage change is: 1.2998734310768396
+Maximization iteration #29
+current maximization log likelihood is: -0.22121628953112804
+maximization log likelihood percentage change is: 1.283109277663233
+Maximization iteration #30
+current maximization log likelihood is: -0.21841398288762548
+maximization log likelihood percentage change is: 1.2667722840131264
+Maximization iteration #31
+current maximization log likelihood is: -0.21568195960861658
+maximization log likelihood percentage change is: 1.2508463253538726
+Maximization iteration #32
+current maximization log likelihood is: -0.21301760569582484
+maximization log likelihood percentage change is: 1.2353160726221895
+Maximization iteration #33
+current maximization log likelihood is: -0.21041843526222692
+maximization log likelihood percentage change is: 1.2201669552653616
+Maximization iteration #34
+current maximization log likelihood is: -0.20788208277917875
+maximization log likelihood percentage change is: 1.2053851079575477
+Maximization iteration #35
+current maximization log likelihood is: -0.20540629587907233
+maximization log likelihood percentage change is: 1.1909573287931219
+Maximization iteration #36
+current maximization log likelihood is: -0.20298892866287588
+maximization log likelihood percentage change is: 1.176871042754997
+Maximization iteration #37
+current maximization log likelihood is: -0.20062793548157742
+maximization log likelihood percentage change is: 1.1631142628569624
+Maximization iteration #38
+current maximization log likelihood is: -0.1983213651499227
+maximization log likelihood percentage change is: 1.1496755554594795
+Maximization iteration #39
+current maximization log likelihood is: -0.19606735554754096
+maximization log likelihood percentage change is: 1.1365440131363653
+Maximization iteration #40
+current maximization log likelihood is: -0.19386412859864777
+maximization log likelihood percentage change is: 1.1237092185695168
+Maximization iteration #41
+current maximization log likelihood is: -0.1917099855755282
+maximization log likelihood percentage change is: 1.1111612234253143
+Maximization iteration #42
+current maximization log likelihood is: -0.18960330272500414
+maximization log likelihood percentage change is: 1.0988905164223144
+Maximization iteration #43
+current maximization log likelihood is: -0.18754252717513964
+maximization log likelihood percentage change is: 1.086888002606895
+Maximization iteration #44
+current maximization log likelihood is: -0.18552617310007236
+maximization log likelihood percentage change is: 1.0751449846808765
+Maximization iteration #45
+current maximization log likelihood is: -0.1835528181533732
+maximization log likelihood percentage change is: 1.0636531297579903
+Maximization iteration #46
+current maximization log likelihood is: -0.18162110009410526
+maximization log likelihood percentage change is: 1.0524044679356783
+Maximization iteration #47
+current maximization log likelihood is: -0.17972971366657475
+maximization log likelihood percentage change is: 1.0413913507574295
+Maximization iteration #48
+current maximization log likelihood is: -0.1778774076241234
+maximization log likelihood percentage change is: 1.0306064615935728
+Maximization iteration #49
+current maximization log likelihood is: -0.17606298198575132
+maximization log likelihood percentage change is: 1.020042771371049
+Maximization iteration #50
+current maximization log likelihood is: -0.17428528542507138
+maximization log likelihood percentage change is: 1.0096935429753258
+Maximization iteration #51
+current maximization log likelihood is: -0.17254321283024865
+maximization log likelihood percentage change is: 0.9995523090626494
+Maximization iteration #52
+current maximization log likelihood is: -0.17083570300445672
+maximization log likelihood percentage change is: 0.9896128614875231
+Maximization iteration #53
+current maximization log likelihood is: -0.1691617365095226
+maximization log likelihood percentage change is: 0.9798692342960947
+Maximization iteration #54
+current maximization log likelihood is: -0.16752033363536611
+maximization log likelihood percentage change is: 0.9703156919674232
+Maximization iteration #55
+current maximization log likelihood is: -0.16591055246846054
+maximization log likelihood percentage change is: 0.9609467292546794
+Maximization iteration #56
+current maximization log likelihood is: -0.16433148710240175
+maximization log likelihood percentage change is: 0.9517570417101492
+Maximization iteration #57
+current maximization log likelihood is: -0.16278226591549583
+maximization log likelihood percentage change is: 0.9427415367698467
+Maximization iteration #58
+current maximization log likelihood is: -0.16126204998312232
+maximization log likelihood percentage change is: 0.9338953010782414
+Maximization iteration #59
+current maximization log likelihood is: -0.1597700315454631
+maximization log likelihood percentage change is: 0.925213612139608
+Maximization iteration #60
+current maximization log likelihood is: -0.1583054325710691
+maximization log likelihood percentage change is: 0.9166919229012213
+Maximization iteration #61
+current maximization log likelihood is: -0.15686750340978506
+maximization log likelihood percentage change is: 0.9083258470226581
+Maximization iteration #62
+current maximization log likelihood is: -0.15545552150859976
+maximization log likelihood percentage change is: 0.900111157820099
+Maximization iteration #63
+current maximization log likelihood is: -0.15406879018701147
+maximization log likelihood percentage change is: 0.8920437872717003
+Maximization iteration #64
+current maximization log likelihood is: -0.15270663750999347
+maximization log likelihood percentage change is: 0.8841197982827003
+Maximization iteration #65
+current maximization log likelihood is: -0.15136841517113453
+maximization log likelihood percentage change is: 0.876335410614594
+Maximization iteration #66
+current maximization log likelihood is: -0.15005349748901153
+maximization log likelihood percentage change is: 0.8686869586606774
+Maximization iteration #67
+current maximization log likelihood is: -0.1487612804141918
+maximization log likelihood percentage change is: 0.8611709133366754
+Maximization iteration #68
+current maximization log likelihood is: -0.1474911805974557
+maximization log likelihood percentage change is: 0.8537838698348048
+Maximization iteration #69
+current maximization log likelihood is: -0.1462426345304948
+maximization log likelihood percentage change is: 0.8465225255525797
+Maximization iteration #70
+current maximization log likelihood is: -0.14501509768183496
+maximization log likelihood percentage change is: 0.8393837081783903
+Maximization iteration #71
+current maximization log likelihood is: -0.1438080437316671
+maximization log likelihood percentage change is: 0.8323643327235755
+Maximization iteration #72
+current maximization log likelihood is: -0.14262096379485456
+maximization log likelihood percentage change is: 0.825461431787179
+Maximization iteration #73
+current maximization log likelihood is: -0.14145336571698408
+maximization log likelihood percentage change is: 0.8186721270162978
+Maximization iteration #74
+current maximization log likelihood is: -0.14030477339019853
+maximization log likelihood percentage change is: 0.8119936354739118
+Maximization iteration #75
+current maximization log likelihood is: -0.13917472609972492
+maximization log likelihood percentage change is: 0.8054232676253023
+Maximization iteration #76
+current maximization log likelihood is: -0.13806277791030652
+maximization log likelihood percentage change is: 0.7989584176523821
+Maximization iteration #77
+current maximization log likelihood is: -0.13696849708037462
+maximization log likelihood percentage change is: 0.7925965611403324
+Maximization iteration #78
+current maximization log likelihood is: -0.135891465493728
+maximization log likelihood percentage change is: 0.7863352592783525
+Maximization iteration #79
+current maximization log likelihood is: -0.134831278133845
+maximization log likelihood percentage change is: 0.7801721440202843
+Maximization iteration #80
+current maximization log likelihood is: -0.1337875425752486
+maximization log likelihood percentage change is: 0.7741049206403583
+Maximization iteration #81
+current maximization log likelihood is: -0.1327598784864108
+maximization log likelihood percentage change is: 0.7681313738607625
+Maximization iteration #82
+current maximization log likelihood is: -0.1317479171806326
+maximization log likelihood percentage change is: 0.7622493461997029
+Maximization iteration #83
+current maximization log likelihood is: -0.1307513011690844
+maximization log likelihood percentage change is: 0.7564567492796148
+Maximization iteration #84
+current maximization log likelihood is: -0.12976968373209274
+maximization log likelihood percentage change is: 0.7507515628638001
+Maximization iteration #85
+current maximization log likelihood is: -0.12880272853038832
+maximization log likelihood percentage change is: 0.7451318165348115
+Maximization iteration #86
+current maximization log likelihood is: -0.12785010920259765
+maximization log likelihood percentage change is: 0.7395956115680583
+Maximization iteration #87
+current maximization log likelihood is: -0.12691150901468973
+maximization log likelihood percentage change is: 0.7341410920663122
+Maximization iteration #88
+current maximization log likelihood is: -0.12598662049686027
+maximization log likelihood percentage change is: 0.7287664649251037
+Maximization iteration #89
+current maximization log likelihood is: -0.12507514510309647
+maximization log likelihood percentage change is: 0.7234699924239251
+Maximization iteration #90
+current maximization log likelihood is: -0.12417679290371098
+maximization log likelihood percentage change is: 0.7182499757605788
+Maximization iteration #91
+current maximization log likelihood is: -0.1232912822703156
+maximization log likelihood percentage change is: 0.713104769972608
+Maximization iteration #92
+current maximization log likelihood is: -0.12241833956943537
+maximization log likelihood percentage change is: 0.7080327861026762
+Maximization iteration #93
+current maximization log likelihood is: -0.12155769890603096
+maximization log likelihood percentage change is: 0.703032459377753
+Maximization iteration #94
+current maximization log likelihood is: -0.12070910182268335
+maximization log likelihood percentage change is: 0.6981022929725028
+Maximization iteration #95
+current maximization log likelihood is: -0.11987229706102198
+maximization log likelihood percentage change is: 0.6932408153368591
+Maximization iteration #96
+current maximization log likelihood is: -0.1190470403054178
+maximization log likelihood percentage change is: 0.6884466017899724
+Maximization iteration #97
+current maximization log likelihood is: -0.11823309395134629
+maximization log likelihood percentage change is: 0.6837182612716006
+Maximization iteration #98
+current maximization log likelihood is: -0.11743022686334825
+maximization log likelihood percentage change is: 0.6790544518173764
+Maximization iteration #99
+current maximization log likelihood is: -0.11663821416954079
+maximization log likelihood percentage change is: 0.6744538565263248
+reaching maximum maximization step: 100
+This is end of EM iteration #2.
+This is start of EM iteration #3.
+inside-em burn-in starts. time(s): 1413841779
+inside-em burn-in terminates. time(s): 1413841779
+word-label aggregate array: 
+Keywords to labels: 
+32.74701797811504 -31.747017978107493 
+Other words to labels: 
+-17.871482712580836 18.871482712585127 
+word-label matrix:
+[(32.74701797811504) (-31.747017978107493) ] [(-17.871482712580836) (18.871482712585127) ] 
+label-label matrix:
+[(8.850375401739234) (-5.399078216181733) ] [(-7.138883477551332) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.9545368371174394) (12.220998428420273) ] [(5.8670802045973085) (-18.44261547012061) ] 
+prediction-observation matrix:
+[(30.461874584957137) (-25.70971288078596) ] [(-26.461874584957066) (29.709712880786075) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -0.3599227423750335
+current expectation log likelihood is: -0.06248565034860576
+expectation log likelihood percentage change is: 82.6391491862171
+Maximization iteration #0
+current maximization log likelihood is: -0.062269434759798514
+maximization log likelihood percentage change is: 0.34602438736091223
+Maximization iteration #1
+current maximization log likelihood is: -0.062054785602072116
+maximization log likelihood percentage change is: 0.3447103037861159
+Maximization iteration #2
+current maximization log likelihood is: -0.061841686624461545
+maximization log likelihood percentage change is: 0.3434045828102176
+Maximization iteration #3
+current maximization log likelihood is: -0.06163012179627003
+maximization log likelihood percentage change is: 0.3421071444513742
+Maximization iteration #4
+current maximization log likelihood is: -0.061420075313719735
+maximization log likelihood percentage change is: 0.34081789298525966
+Maximization iteration #5
+current maximization log likelihood is: -0.06121153159409687
+maximization log likelihood percentage change is: 0.33953673706466986
+Maximization iteration #6
+current maximization log likelihood is: -0.06100447526790731
+maximization log likelihood percentage change is: 0.33826359314545684
+Maximization iteration #7
+current maximization log likelihood is: -0.06079889117785342
+maximization log likelihood percentage change is: 0.3369983745471892
+Maximization iteration #8
+current maximization log likelihood is: -0.06059476437332023
+maximization log likelihood percentage change is: 0.3357409988548346
+Maximization iteration #9
+current maximization log likelihood is: -0.06039208011191022
+maximization log likelihood percentage change is: 0.3344913764517497
+Maximization iteration #10
+current maximization log likelihood is: -0.060190823849723074
+maximization log likelihood percentage change is: 0.3332494290877276
+Maximization iteration #11
+current maximization log likelihood is: -0.05999098124203783
+maximization log likelihood percentage change is: 0.33201507290244625
+Maximization iteration #12
+current maximization log likelihood is: -0.0597925381352411
+maximization log likelihood percentage change is: 0.33078823297805054
+Maximization iteration #13
+current maximization log likelihood is: -0.059595480570692416
+maximization log likelihood percentage change is: 0.32956882362640894
+Maximization iteration #14
+current maximization log likelihood is: -0.05939979477443558
+maximization log likelihood percentage change is: 0.3283567719950104
+Maximization iteration #15
+current maximization log likelihood is: -0.05920546715833552
+maximization log likelihood percentage change is: 0.32715199915756027
+Maximization iteration #16
+current maximization log likelihood is: -0.0590124843168951
+maximization log likelihood percentage change is: 0.32595442735773694
+Maximization iteration #17
+current maximization log likelihood is: -0.058820833018728536
+maximization log likelihood percentage change is: 0.3247639891542284
+Maximization iteration #18
+current maximization log likelihood is: -0.05863050021412164
+maximization log likelihood percentage change is: 0.3235806003398396
+Maximization iteration #19
+current maximization log likelihood is: -0.05844147302042302
+maximization log likelihood percentage change is: 0.3224041974881398
+Maximization iteration #20
+current maximization log likelihood is: -0.05825373872824002
+maximization log likelihood percentage change is: 0.3212347028237792
+Maximization iteration #21
+current maximization log likelihood is: -0.05806728479149115
+maximization log likelihood percentage change is: 0.3200720517162061
+Maximization iteration #22
+current maximization log likelihood is: -0.05788209883229456
+maximization log likelihood percentage change is: 0.3189161674453284
+Maximization iteration #23
+current maximization log likelihood is: -0.05769816863107735
+maximization log likelihood percentage change is: 0.31776698656025054
+Maximization iteration #24
+current maximization log likelihood is: -0.057515482127257656
+maximization log likelihood percentage change is: 0.3166244408688167
+Maximization iteration #25
+current maximization log likelihood is: -0.057334027419358335
+maximization log likelihood percentage change is: 0.31548845839079787
+Maximization iteration #26
+current maximization log likelihood is: -0.05715379275449095
+maximization log likelihood percentage change is: 0.3143589818819008
+Maximization iteration #27
+current maximization log likelihood is: -0.05697476653602962
+maximization log likelihood percentage change is: 0.31323593734252025
+Maximization iteration #28
+current maximization log likelihood is: -0.05679693731065072
+maximization log likelihood percentage change is: 0.3121192699691802
+Maximization iteration #29
+current maximization log likelihood is: -0.05662029377560884
+maximization log likelihood percentage change is: 0.31100890894120686
+Maximization iteration #30
+current maximization log likelihood is: -0.05644482477094925
+maximization log likelihood percentage change is: 0.3099047937740992
+Maximization iteration #31
+current maximization log likelihood is: -0.056270519276949926
+maximization log likelihood percentage change is: 0.3088068653001433
+Maximization iteration #32
+current maximization log likelihood is: -0.05609736641389418
+maximization log likelihood percentage change is: 0.30771506160007356
+Maximization iteration #33
+current maximization log likelihood is: -0.055925355440706426
+maximization log likelihood percentage change is: 0.30662932002659793
+Maximization iteration #34
+current maximization log likelihood is: -0.05575447575006365
+maximization log likelihood percentage change is: 0.30554958354077716
+Maximization iteration #35
+current maximization log likelihood is: -0.05558471686407529
+maximization log likelihood percentage change is: 0.3044757998431441
+Maximization iteration #36
+current maximization log likelihood is: -0.05541606844371927
+maximization log likelihood percentage change is: 0.30340789675771407
+Maximization iteration #37
+current maximization log likelihood is: -0.05524852026780991
+maximization log likelihood percentage change is: 0.30234583689299876
+Maximization iteration #38
+current maximization log likelihood is: -0.05508206224993728
+maximization log likelihood percentage change is: 0.3012895495947131
+Maximization iteration #39
+current maximization log likelihood is: -0.05491668442647324
+maximization log likelihood percentage change is: 0.30023898290814194
+Maximization iteration #40
+current maximization log likelihood is: -0.05475237695634405
+maximization log likelihood percentage change is: 0.29919408253638424
+Maximization iteration #41
+current maximization log likelihood is: -0.05458913011477762
+maximization log likelihood percentage change is: 0.2981548028437117
+Maximization iteration #42
+current maximization log likelihood is: -0.05442693430455847
+maximization log likelihood percentage change is: 0.2971210749797939
+Maximization iteration #43
+current maximization log likelihood is: -0.05426578003743998
+maximization log likelihood percentage change is: 0.29609286133353535
+Maximization iteration #44
+current maximization log likelihood is: -0.05410565794312561
+maximization log likelihood percentage change is: 0.2950701053295469
+Maximization iteration #45
+current maximization log likelihood is: -0.05394655876807519
+maximization log likelihood percentage change is: 0.29405274993172653
+Maximization iteration #46
+current maximization log likelihood is: -0.053788473364363654
+maximization log likelihood percentage change is: 0.2930407561141627
+Maximization iteration #47
+current maximization log likelihood is: -0.053631392700424385
+maximization log likelihood percentage change is: 0.29203406253083736
+Maximization iteration #48
+current maximization log likelihood is: -0.05347530784695209
+maximization log likelihood percentage change is: 0.29103263147417485
+Maximization iteration #49
+current maximization log likelihood is: -0.05332020998491771
+maximization log likelihood percentage change is: 0.29003640797782015
+Maximization iteration #50
+current maximization log likelihood is: -0.053166090399315635
+maximization log likelihood percentage change is: 0.28904534630615597
+Maximization iteration #51
+current maximization log likelihood is: -0.053012940481266924
+maximization log likelihood percentage change is: 0.2880593944343951
+Maximization iteration #52
+current maximization log likelihood is: -0.05286075171767379
+maximization log likelihood percentage change is: 0.28707851745539253
+Maximization iteration #53
+current maximization log likelihood is: -0.05270951570338411
+maximization log likelihood percentage change is: 0.2861026553262473
+Maximization iteration #54
+current maximization log likelihood is: -0.052559224124706816
+maximization log likelihood percentage change is: 0.2851317768181432
+Maximization iteration #55
+current maximization log likelihood is: -0.05240986877021214
+maximization log likelihood percentage change is: 0.28416582813380076
+Maximization iteration #56
+current maximization log likelihood is: -0.05226144152180723
+maximization log likelihood percentage change is: 0.2832047701849521
+Maximization iteration #57
+current maximization log likelihood is: -0.05211393435951095
+maximization log likelihood percentage change is: 0.28224855266330173
+Maximization iteration #58
+current maximization log likelihood is: -0.05196733935258635
+maximization log likelihood percentage change is: 0.28129714005721607
+Maximization iteration #59
+current maximization log likelihood is: -0.051821648661245945
+maximization log likelihood percentage change is: 0.28035049158843384
+Maximization iteration #60
+current maximization log likelihood is: -0.051676854540460226
+maximization log likelihood percentage change is: 0.27940855709208756
+Maximization iteration #61
+current maximization log likelihood is: -0.05153294933404595
+maximization log likelihood percentage change is: 0.2784712956970014
+Maximization iteration #62
+current maximization log likelihood is: -0.051389925466367004
+maximization log likelihood percentage change is: 0.2775386806445753
+Maximization iteration #63
+current maximization log likelihood is: -0.05124777545734105
+maximization log likelihood percentage change is: 0.2766106542010587
+Maximization iteration #64
+current maximization log likelihood is: -0.05110649190504546
+maximization log likelihood percentage change is: 0.27568719038974765
+Maximization iteration #65
+current maximization log likelihood is: -0.050966067497711265
+maximization log likelihood percentage change is: 0.2747682380451767
+Maximization iteration #66
+current maximization log likelihood is: -0.05082649499945546
+maximization log likelihood percentage change is: 0.27385377194752175
+Maximization iteration #67
+current maximization log likelihood is: -0.05068776726108126
+maximization log likelihood percentage change is: 0.27294374395811977
+Maximization iteration #68
+current maximization log likelihood is: -0.05054987721331372
+maximization log likelihood percentage change is: 0.2720381173179339
+Maximization iteration #69
+current maximization log likelihood is: -0.0504128178628207
+maximization log likelihood percentage change is: 0.2711368613511093
+Maximization iteration #70
+current maximization log likelihood is: -0.0502765822972151
+maximization log likelihood percentage change is: 0.2702399337730252
+Maximization iteration #71
+current maximization log likelihood is: -0.0501411636797684
+maximization log likelihood percentage change is: 0.26934730098828574
+Maximization iteration #72
+current maximization log likelihood is: -0.05000655524941067
+maximization log likelihood percentage change is: 0.26845892771340585
+Maximization iteration #73
+current maximization log likelihood is: -0.04987275032152638
+maximization log likelihood percentage change is: 0.2675747753807966
+Maximization iteration #74
+current maximization log likelihood is: -0.04973974228408906
+maximization log likelihood percentage change is: 0.2666948114548062
+Maximization iteration #75
+current maximization log likelihood is: -0.04960752459669493
+maximization log likelihood percentage change is: 0.26581900372335854
+Maximization iteration #76
+current maximization log likelihood is: -0.049476090791813476
+maximization log likelihood percentage change is: 0.2649473158558089
+Maximization iteration #77
+current maximization log likelihood is: -0.04934543447194528
+maximization log likelihood percentage change is: 0.2640797156306723
+Maximization iteration #78
+current maximization log likelihood is: -0.049215549308541995
+maximization log likelihood percentage change is: 0.2632161714517514
+Maximization iteration #79
+current maximization log likelihood is: -0.0490864290448485
+maximization log likelihood percentage change is: 0.2623566444092976
+Maximization iteration #80
+current maximization log likelihood is: -0.04895806748589848
+maximization log likelihood percentage change is: 0.2615011143563516
+Maximization iteration #81
+current maximization log likelihood is: -0.04883045851170209
+maximization log likelihood percentage change is: 0.2606495328541043
+Maximization iteration #82
+current maximization log likelihood is: -0.0487035960591129
+maximization log likelihood percentage change is: 0.2598018868874464
+Maximization iteration #83
+current maximization log likelihood is: -0.04857747413706193
+maximization log likelihood percentage change is: 0.25895813093122017
+Maximization iteration #84
+current maximization log likelihood is: -0.048452086813313144
+maximization log likelihood percentage change is: 0.25811824508413206
+Maximization iteration #85
+current maximization log likelihood is: -0.048327428223501556
+maximization log likelihood percentage change is: 0.25728218949970144
+Maximization iteration #86
+current maximization log likelihood is: -0.04820349255993506
+maximization log likelihood percentage change is: 0.2564499459671832
+Maximization iteration #87
+current maximization log likelihood is: -0.048080274080120944
+maximization log likelihood percentage change is: 0.2556214773460792
+Maximization iteration #88
+current maximization log likelihood is: -0.047957767103298465
+maximization log likelihood percentage change is: 0.25479675223633896
+Maximization iteration #89
+current maximization log likelihood is: -0.04783596600390183
+maximization log likelihood percentage change is: 0.2539757514862639
+Maximization iteration #90
+current maximization log likelihood is: -0.04771486522076884
+maximization log likelihood percentage change is: 0.25315843548160016
+Maximization iteration #91
+current maximization log likelihood is: -0.04759445924383954
+maximization log likelihood percentage change is: 0.25234479102520074
+Maximization iteration #92
+current maximization log likelihood is: -0.04747474262643436
+maximization log likelihood percentage change is: 0.2515347780123591
+Maximization iteration #93
+current maximization log likelihood is: -0.04735570997632976
+maximization log likelihood percentage change is: 0.2507283736980635
+Maximization iteration #94
+current maximization log likelihood is: -0.047237355956099236
+maximization log likelihood percentage change is: 0.2499255534120059
+Maximization iteration #95
+current maximization log likelihood is: -0.04711967528663763
+maximization log likelihood percentage change is: 0.24912628380592364
+Maximization iteration #96
+current maximization log likelihood is: -0.04700266273698617
+maximization log likelihood percentage change is: 0.24833055181228245
+Maximization iteration #97
+current maximization log likelihood is: -0.046886313136838
+maximization log likelihood percentage change is: 0.24753831671032978
+Maximization iteration #98
+current maximization log likelihood is: -0.046770621363464215
+maximization log likelihood percentage change is: 0.2467495642835802
+Maximization iteration #99
+current maximization log likelihood is: -0.04665558234762557
+maximization log likelihood percentage change is: 0.2459642666379287
+reaching maximum maximization step: 100
+This is end of EM iteration #3.
+This is start of EM iteration #4.
+inside-em burn-in starts. time(s): 1413841815
+inside-em burn-in terminates. time(s): 1413841815
+word-label aggregate array: 
+Keywords to labels: 
+32.74701797811614 -31.747017978107493 
+Other words to labels: 
+-17.818665845311305 18.818665845315433 
+word-label matrix:
+[(32.74701797811614) (-31.747017978107493) ] [(-17.818665845311305) (18.818665845315433) ] 
+label-label matrix:
+[(8.90319226900942) (-5.442265849584141) ] [(-7.148512711418554) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.9570470575503034) (12.2713050752581) ] [(5.867707767297683) (-18.496059900090767) ] 
+prediction-observation matrix:
+[(30.462188363270513) (-25.70971288078596) ] [(-26.46218836327044) (29.709712880786086) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -0.06248565034860576
+current expectation log likelihood is: -0.05585881212203958
+expectation log likelihood percentage change is: 10.605376097704395
+Maximization iteration #0
+current maximization log likelihood is: -0.055679828073436965
+maximization log likelihood percentage change is: 0.32042222489725186
+Maximization iteration #1
+current maximization log likelihood is: -0.05550198935583239
+maximization log likelihood percentage change is: 0.3193952347877555
+Maximization iteration #2
+current maximization log likelihood is: -0.05532528500884837
+maximization log likelihood percentage change is: 0.3183747988763861
+Maximization iteration #3
+current maximization log likelihood is: -0.055149704205746275
+maximization log likelihood percentage change is: 0.31736086506199124
+Maximization iteration #4
+current maximization log likelihood is: -0.05497523625933809
+maximization log likelihood percentage change is: 0.31635336747646053
+Maximization iteration #5
+current maximization log likelihood is: -0.054801870619712645
+maximization log likelihood percentage change is: 0.3153522411574843
+Maximization iteration #6
+current maximization log likelihood is: -0.054629596864685936
+maximization log likelihood percentage change is: 0.3143574353915215
+Maximization iteration #7
+current maximization log likelihood is: -0.05445840470753183
+maximization log likelihood percentage change is: 0.3133688823993007
+Maximization iteration #8
+current maximization log likelihood is: -0.054288283988000785
+maximization log likelihood percentage change is: 0.3123865277447492
+Maximization iteration #9
+current maximization log likelihood is: -0.05411922467430941
+maximization log likelihood percentage change is: 0.31141031042488726
+Maximization iteration #10
+current maximization log likelihood is: -0.05395121685870663
+maximization log likelihood percentage change is: 0.31044017465854695
+Maximization iteration #11
+current maximization log likelihood is: -0.05378425075832638
+maximization log likelihood percentage change is: 0.3094760602295949
+Maximization iteration #12
+current maximization log likelihood is: -0.053618316705865254
+maximization log likelihood percentage change is: 0.3085179213646234
+Maximization iteration #13
+current maximization log likelihood is: -0.05345340515901853
+maximization log likelihood percentage change is: 0.3075656920588946
+Maximization iteration #14
+current maximization log likelihood is: -0.05328950668933885
+maximization log likelihood percentage change is: 0.30661932423593624
+Maximization iteration #15
+current maximization log likelihood is: -0.053126611989682715
+maximization log likelihood percentage change is: 0.3056787532407843
+Maximization iteration #16
+current maximization log likelihood is: -0.05296471185704377
+maximization log likelihood percentage change is: 0.3047439439021432
+Maximization iteration #17
+current maximization log likelihood is: -0.05280379720676365
+maximization log likelihood percentage change is: 0.3038148318722884
+Maximization iteration #18
+current maximization log likelihood is: -0.05264385906610869
+maximization log likelihood percentage change is: 0.30289136220391316
+Maximization iteration #19
+current maximization log likelihood is: -0.05248488856648237
+maximization log likelihood percentage change is: 0.3019734921535484
+Maximization iteration #20
+current maximization log likelihood is: -0.05232687694962124
+maximization log likelihood percentage change is: 0.30106116479789913
+Maximization iteration #21
+current maximization log likelihood is: -0.052169815558954724
+maximization log likelihood percentage change is: 0.3001543371635328
+Maximization iteration #22
+current maximization log likelihood is: -0.05201369584705162
+maximization log likelihood percentage change is: 0.29925294968060295
+Maximization iteration #23
+current maximization log likelihood is: -0.05185850936430825
+maximization log likelihood percentage change is: 0.29835696198114203
+Maximization iteration #24
+current maximization log likelihood is: -0.05170424776304117
+maximization log likelihood percentage change is: 0.29746632357553165
+Maximization iteration #25
+current maximization log likelihood is: -0.051550902796805076
+maximization log likelihood percentage change is: 0.2965809829375445
+Maximization iteration #26
+current maximization log likelihood is: -0.05139846631453793
+maximization log likelihood percentage change is: 0.2957008975536236
+Maximization iteration #27
+current maximization log likelihood is: -0.051246930262323076
+maximization log likelihood percentage change is: 0.29482601929697977
+Maximization iteration #28
+current maximization log likelihood is: -0.05109628668333244
+maximization log likelihood percentage change is: 0.29395629790803834
+Maximization iteration #29
+current maximization log likelihood is: -0.05094652770878838
+maximization log likelihood percentage change is: 0.2930916985654608
+Maximization iteration #30
+current maximization log likelihood is: -0.05079764556853661
+maximization log likelihood percentage change is: 0.2922321636967793
+Maximization iteration #31
+current maximization log likelihood is: -0.05064963257780164
+maximization log likelihood percentage change is: 0.29137765949264094
+Maximization iteration #32
+current maximization log likelihood is: -0.05050248114508804
+maximization log likelihood percentage change is: 0.29052813460702515
+Maximization iteration #33
+current maximization log likelihood is: -0.050356183767462426
+maximization log likelihood percentage change is: 0.2896835448644963
+Maximization iteration #34
+current maximization log likelihood is: -0.050210733024869114
+maximization log likelihood percentage change is: 0.2888438553345942
+Maximization iteration #35
+current maximization log likelihood is: -0.050066121585530254
+maximization log likelihood percentage change is: 0.28800901844479043
+Maximization iteration #36
+current maximization log likelihood is: -0.04992234220259206
+maximization log likelihood percentage change is: 0.2871789912717061
+Maximization iteration #37
+current maximization log likelihood is: -0.04977938771236268
+maximization log likelihood percentage change is: 0.2863537324616213
+Maximization iteration #38
+current maximization log likelihood is: -0.04963725102925309
+maximization log likelihood percentage change is: 0.2855332089074376
+Maximization iteration #39
+current maximization log likelihood is: -0.049495925156918474
+maximization log likelihood percentage change is: 0.28471736327890174
+Maximization iteration #40
+current maximization log likelihood is: -0.04935540316932929
+maximization log likelihood percentage change is: 0.28390617438441734
+Maximization iteration #41
+current maximization log likelihood is: -0.049215678226971704
+maximization log likelihood percentage change is: 0.2830995866414424
+Maximization iteration #42
+current maximization log likelihood is: -0.04907674356104508
+maximization log likelihood percentage change is: 0.28229757453690063
+Maximization iteration #43
+current maximization log likelihood is: -0.04893859248323906
+maximization log likelihood percentage change is: 0.28150009104449386
+Maximization iteration #44
+current maximization log likelihood is: -0.048801218379651345
+maximization log likelihood percentage change is: 0.28070709968777
+Maximization iteration #45
+current maximization log likelihood is: -0.04866461471107186
+maximization log likelihood percentage change is: 0.27991856169812784
+Maximization iteration #46
+current maximization log likelihood is: -0.04852877500985642
+maximization log likelihood percentage change is: 0.2791344430073956
+Maximization iteration #47
+current maximization log likelihood is: -0.04839369288248463
+maximization log likelihood percentage change is: 0.2783547026364308
+Maximization iteration #48
+current maximization log likelihood is: -0.04825936200631986
+maximization log likelihood percentage change is: 0.2775793045820373
+Maximization iteration #49
+current maximization log likelihood is: -0.04812577612659652
+maximization log likelihood percentage change is: 0.27680821745187484
+Maximization iteration #50
+current maximization log likelihood is: -0.04799292906136543
+maximization log likelihood percentage change is: 0.27604139802676847
+Maximization iteration #51
+current maximization log likelihood is: -0.04786081469444525
+maximization log likelihood percentage change is: 0.2752788160757002
+Maximization iteration #52
+current maximization log likelihood is: -0.04772942697707094
+maximization log likelihood percentage change is: 0.27452043642198665
+Maximization iteration #53
+current maximization log likelihood is: -0.047598759927780065
+maximization log likelihood percentage change is: 0.2737662225730259
+Maximization iteration #54
+current maximization log likelihood is: -0.0474688076305938
+maximization log likelihood percentage change is: 0.27301614030163057
+Maximization iteration #55
+current maximization log likelihood is: -0.04733956423336849
+maximization log likelihood percentage change is: 0.27227015734436
+Maximization iteration #56
+current maximization log likelihood is: -0.04721102394870513
+maximization log likelihood percentage change is: 0.27152823804988446
+Maximization iteration #57
+current maximization log likelihood is: -0.04708318105053877
+maximization log likelihood percentage change is: 0.27079035249323397
+Maximization iteration #58
+current maximization log likelihood is: -0.046956029876298544
+maximization log likelihood percentage change is: 0.2700564647570056
+Maximization iteration #59
+current maximization log likelihood is: -0.04682956482531608
+maximization log likelihood percentage change is: 0.2693265408417649
+Maximization iteration #60
+current maximization log likelihood is: -0.04670378035353906
+maximization log likelihood percentage change is: 0.2686005566061226
+Maximization iteration #61
+current maximization log likelihood is: -0.04657867098217139
+maximization log likelihood percentage change is: 0.26787846812531224
+Maximization iteration #62
+current maximization log likelihood is: -0.046454231283405534
+maximization log likelihood percentage change is: 0.2671602605696622
+Maximization iteration #63
+current maximization log likelihood is: -0.04633045589542917
+maximization log likelihood percentage change is: 0.2664458856745331
+Maximization iteration #64
+current maximization log likelihood is: -0.046207339509010126
+maximization log likelihood percentage change is: 0.2657353225638956
+Maximization iteration #65
+current maximization log likelihood is: -0.04608487687062279
+maximization log likelihood percentage change is: 0.26502854241035334
+Maximization iteration #66
+current maximization log likelihood is: -0.04596306278801876
+maximization log likelihood percentage change is: 0.26432550301915647
+Maximization iteration #67
+current maximization log likelihood is: -0.0458418921148791
+maximization log likelihood percentage change is: 0.2636261941431035
+Maximization iteration #68
+current maximization log likelihood is: -0.04572135976889058
+maximization log likelihood percentage change is: 0.26293056509637486
+Maximization iteration #69
+current maximization log likelihood is: -0.04560146071463578
+maximization log likelihood percentage change is: 0.2622386010846131
+Maximization iteration #70
+current maximization log likelihood is: -0.04548218997211961
+maximization log likelihood percentage change is: 0.26155026757264466
+Maximization iteration #71
+current maximization log likelihood is: -0.045363542610914465
+maximization log likelihood percentage change is: 0.2608655416062396
+Maximization iteration #72
+current maximization log likelihood is: -0.04524551375578767
+maximization log likelihood percentage change is: 0.2601843866982232
+Maximization iteration #73
+current maximization log likelihood is: -0.045128098578686604
+maximization log likelihood percentage change is: 0.2595067827825167
+Maximization iteration #74
+current maximization log likelihood is: -0.04501129230476408
+maximization log likelihood percentage change is: 0.25883269537459896
+Maximization iteration #75
+current maximization log likelihood is: -0.04489509020686455
+maximization log likelihood percentage change is: 0.2581621009962259
+Maximization iteration #76
+current maximization log likelihood is: -0.0447794876062062
+maximization log likelihood percentage change is: 0.2574949735609907
+Maximization iteration #77
+current maximization log likelihood is: -0.044664479872778884
+maximization log likelihood percentage change is: 0.25683128498187574
+Maximization iteration #78
+current maximization log likelihood is: -0.04455006242676518
+maximization log likelihood percentage change is: 0.25617100286314165
+Maximization iteration #79
+current maximization log likelihood is: -0.04443623073012759
+maximization log likelihood percentage change is: 0.25551411252164896
+Maximization iteration #80
+current maximization log likelihood is: -0.04432298029394133
+maximization log likelihood percentage change is: 0.25486058183931337
+Maximization iteration #81
+current maximization log likelihood is: -0.044210306677200606
+maximization log likelihood percentage change is: 0.2542103802440456
+Maximization iteration #82
+current maximization log likelihood is: -0.0440982054785195
+maximization log likelihood percentage change is: 0.25356349481944135
+Maximization iteration #83
+current maximization log likelihood is: -0.04398667234755749
+maximization log likelihood percentage change is: 0.2529198858587215
+Maximization iteration #84
+current maximization log likelihood is: -0.04387570297365073
+maximization log likelihood percentage change is: 0.252279538288186
+Maximization iteration #85
+current maximization log likelihood is: -0.04376529309047328
+maximization log likelihood percentage change is: 0.25164242552138605
+Maximization iteration #86
+current maximization log likelihood is: -0.043655438476378094
+maximization log likelihood percentage change is: 0.25100851916629074
+Maximization iteration #87
+current maximization log likelihood is: -0.04354613495053172
+maximization log likelihood percentage change is: 0.25037779864590176
+Maximization iteration #88
+current maximization log likelihood is: -0.04343737837177741
+maximization log likelihood percentage change is: 0.24975024506275248
+Maximization iteration #89
+current maximization log likelihood is: -0.0433291646465932
+maximization log likelihood percentage change is: 0.24912582029702762
+Maximization iteration #90
+current maximization log likelihood is: -0.04322148971459683
+maximization log likelihood percentage change is: 0.24850451854911787
+Maximization iteration #91
+current maximization log likelihood is: -0.04311434956355242
+maximization log likelihood percentage change is: 0.2478862985794338
+Maximization iteration #92
+current maximization log likelihood is: -0.043007740214250134
+maximization log likelihood percentage change is: 0.24727115306504213
+Maximization iteration #93
+current maximization log likelihood is: -0.0429016577298853
+maximization log likelihood percentage change is: 0.24665905215285902
+Maximization iteration #94
+current maximization log likelihood is: -0.04279609821418262
+maximization log likelihood percentage change is: 0.24604996936784404
+Maximization iteration #95
+current maximization log likelihood is: -0.04269105780480231
+maximization log likelihood percentage change is: 0.24544389269930628
+Maximization iteration #96
+current maximization log likelihood is: -0.04258653268254875
+maximization log likelihood percentage change is: 0.244840787809677
+Maximization iteration #97
+current maximization log likelihood is: -0.04248251906142286
+maximization log likelihood percentage change is: 0.24424064269620593
+Maximization iteration #98
+current maximization log likelihood is: -0.042379013193396986
+maximization log likelihood percentage change is: 0.24364343337603017
+Maximization iteration #99
+current maximization log likelihood is: -0.04227601136881276
+maximization log likelihood percentage change is: 0.2430491340470246
+reaching maximum maximization step: 100
+This is end of EM iteration #4.
+This is start of EM iteration #5.
+inside-em burn-in starts. time(s): 1413842068
+inside-em burn-in terminates. time(s): 1413842068
+word-label aggregate array: 
+Keywords to labels: 
+32.747017978117356 -31.747017978107493 
+Other words to labels: 
+-17.770198149393103 18.77019814939749 
+word-label matrix:
+[(32.747017978117356) (-31.747017978107493) ] [(-17.770198149393103) (18.77019814939749) ] 
+label-label matrix:
+[(8.951659964928238) (-5.48373022506373) ] [(-7.1555160318571) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.9570471277620594) (12.31977270096335) ] [(5.8677077854765605) (-18.544527614187547) ] 
+prediction-observation matrix:
+[(30.46218837210957) (-25.70971288078596) ] [(-26.462188372109487) (29.709712880786082) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -0.05585881212203958
+current expectation log likelihood is: -0.04865834106880129
+expectation log likelihood percentage change is: 12.89048366711916
+Maximization iteration #0
+current maximization log likelihood is: -0.04852404769712848
+maximization log likelihood percentage change is: 0.275992499380373
+Maximization iteration #1
+current maximization log likelihood is: -0.04839049490942671
+maximization log likelihood percentage change is: 0.27523010556614635
+Maximization iteration #2
+current maximization log likelihood is: -0.04825767659559688
+maximization log likelihood percentage change is: 0.2744719062667746
+Maximization iteration #3
+current maximization log likelihood is: -0.04812558670693079
+maximization log likelihood percentage change is: 0.2737178786558887
+Maximization iteration #4
+current maximization log likelihood is: -0.04799421926583136
+maximization log likelihood percentage change is: 0.2729679783426085
+Maximization iteration #5
+current maximization log likelihood is: -0.047863568356319774
+maximization log likelihood percentage change is: 0.2722221790668896
+Maximization iteration #6
+current maximization log likelihood is: -0.047733628129492445
+maximization log likelihood percentage change is: 0.27148044178401254
+Maximization iteration #7
+current maximization log likelihood is: -0.04760439279743878
+maximization log likelihood percentage change is: 0.2707427386476391
+Maximization iteration #8
+current maximization log likelihood is: -0.04747585663693599
+maximization log likelihood percentage change is: 0.27000903267419823
+Maximization iteration #9
+current maximization log likelihood is: -0.04734801398666377
+maximization log likelihood percentage change is: 0.2692792912613885
+Maximization iteration #10
+current maximization log likelihood is: -0.047220859245328484
+maximization log likelihood percentage change is: 0.26855348435755727
+Maximization iteration #11
+current maximization log likelihood is: -0.04709438687200418
+maximization log likelihood percentage change is: 0.26783157982627415
+Maximization iteration #12
+current maximization log likelihood is: -0.04696859138476839
+maximization log likelihood percentage change is: 0.2671135470511285
+Maximization iteration #13
+current maximization log likelihood is: -0.04684346735876943
+maximization log likelihood percentage change is: 0.26639935818797866
+Maximization iteration #14
+current maximization log likelihood is: -0.0467190094324792
+maximization log likelihood percentage change is: 0.26568897075236264
+Maximization iteration #15
+current maximization log likelihood is: -0.04659521229740449
+maximization log likelihood percentage change is: 0.2649823628080738
+Maximization iteration #16
+current maximization log likelihood is: -0.0464720706985986
+maximization log likelihood percentage change is: 0.2642795101348781
+Maximization iteration #17
+current maximization log likelihood is: -0.04634957944222151
+maximization log likelihood percentage change is: 0.26358037103946474
+Maximization iteration #18
+current maximization log likelihood is: -0.0462277333870702
+maximization log likelihood percentage change is: 0.2628849206780828
+Maximization iteration #19
+current maximization log likelihood is: -0.04610652744457866
+maximization log likelihood percentage change is: 0.2621931330196765
+Maximization iteration #20
+current maximization log likelihood is: -0.04598595657938631
+maximization log likelihood percentage change is: 0.2615049796089681
+Maximization iteration #21
+current maximization log likelihood is: -0.04586601581343075
+maximization log likelihood percentage change is: 0.26082042187924503
+Maximization iteration #22
+current maximization log likelihood is: -0.04574670021526117
+maximization log likelihood percentage change is: 0.2601394432316039
+Maximization iteration #23
+current maximization log likelihood is: -0.045628004906802744
+maximization log likelihood percentage change is: 0.25946201124869445
+Maximization iteration #24
+current maximization log likelihood is: -0.045509925059946
+maximization log likelihood percentage change is: 0.2587880997600661
+Maximization iteration #25
+current maximization log likelihood is: -0.045392455897399486
+maximization log likelihood percentage change is: 0.258117679586995
+Maximization iteration #26
+current maximization log likelihood is: -0.04527559269234871
+maximization log likelihood percentage change is: 0.257450721139483
+Maximization iteration #27
+current maximization log likelihood is: -0.04515933076442025
+maximization log likelihood percentage change is: 0.2567872025850038
+Maximization iteration #28
+current maximization log likelihood is: -0.045043665482126016
+maximization log likelihood percentage change is: 0.2561270956330468
+Maximization iteration #29
+current maximization log likelihood is: -0.04492859226058954
+maximization log likelihood percentage change is: 0.25547037592253596
+Maximization iteration #30
+current maximization log likelihood is: -0.04481410656546814
+maximization log likelihood percentage change is: 0.25481700930529033
+Maximization iteration #31
+current maximization log likelihood is: -0.044700203903232705
+maximization log likelihood percentage change is: 0.25416698215110867
+Maximization iteration #32
+current maximization log likelihood is: -0.04458687982776155
+maximization log likelihood percentage change is: 0.2535202651792815
+Maximization iteration #33
+current maximization log likelihood is: -0.04447412994403521
+maximization log likelihood percentage change is: 0.2528768197323709
+Maximization iteration #34
+current maximization log likelihood is: -0.04436194989091291
+maximization log likelihood percentage change is: 0.25223664468189777
+Maximization iteration #35
+current maximization log likelihood is: -0.04425033536062983
+maximization log likelihood percentage change is: 0.2515996942369308
+Maximization iteration #36
+current maximization log likelihood is: -0.044139282080266184
+maximization log likelihood percentage change is: 0.2509659632149467
+Maximization iteration #37
+current maximization log likelihood is: -0.04402878583084657
+maximization log likelihood percentage change is: 0.2503354024170055
+Maximization iteration #38
+current maximization log likelihood is: -0.043918842424432114
+maximization log likelihood percentage change is: 0.24970801338208268
+Maximization iteration #39
+current maximization log likelihood is: -0.04380944772009343
+maximization log likelihood percentage change is: 0.24908376063624785
+Maximization iteration #40
+current maximization log likelihood is: -0.04370059762203482
+maximization log likelihood percentage change is: 0.2484626118869921
+Maximization iteration #41
+current maximization log likelihood is: -0.04359228806657711
+maximization log likelihood percentage change is: 0.24784456357891177
+Maximization iteration #42
+current maximization log likelihood is: -0.04348451503597062
+maximization log likelihood percentage change is: 0.24722957978690335
+Maximization iteration #43
+current maximization log likelihood is: -0.04337727455236973
+maximization log likelihood percentage change is: 0.24661763736396766
+Maximization iteration #44
+current maximization log likelihood is: -0.043270562674877056
+maximization log likelihood percentage change is: 0.24600871906748567
+Maximization iteration #45
+current maximization log likelihood is: -0.04316437550039609
+maximization log likelihood percentage change is: 0.24540280485563795
+Maximization iteration #46
+current maximization log likelihood is: -0.043058709169656595
+maximization log likelihood percentage change is: 0.24479985987177316
+Maximization iteration #47
+current maximization log likelihood is: -0.042953559855050116
+maximization log likelihood percentage change is: 0.24419987648068453
+Maximization iteration #48
+current maximization log likelihood is: -0.04284892376921334
+maximization log likelihood percentage change is: 0.24360282637777972
+Maximization iteration #49
+current maximization log likelihood is: -0.04274479716195856
+maximization log likelihood percentage change is: 0.24300868748913226
+Maximization iteration #50
+current maximization log likelihood is: -0.0426411763202168
+maximization log likelihood percentage change is: 0.242417437025476
+Maximization iteration #51
+current maximization log likelihood is: -0.04253805756371776
+maximization log likelihood percentage change is: 0.24182906147960354
+Maximization iteration #52
+current maximization log likelihood is: -0.04243543725061727
+maximization log likelihood percentage change is: 0.2412435333860102
+Maximization iteration #53
+current maximization log likelihood is: -0.04233331177516675
+maximization log likelihood percentage change is: 0.24066082987994952
+Maximization iteration #54
+current maximization log likelihood is: -0.04223167756066459
+maximization log likelihood percentage change is: 0.24008094391938234
+Maximization iteration #55
+current maximization log likelihood is: -0.04213053107224596
+maximization log likelihood percentage change is: 0.23950383754787205
+Maximization iteration #56
+current maximization log likelihood is: -0.04202986880346771
+maximization log likelihood percentage change is: 0.23892950365528054
+Maximization iteration #57
+current maximization log likelihood is: -0.041929687283300154
+maximization log likelihood percentage change is: 0.23835791787978913
+Maximization iteration #58
+current maximization log likelihood is: -0.04182998307487651
+maximization log likelihood percentage change is: 0.2377890580246609
+Maximization iteration #59
+current maximization log likelihood is: -0.041730752773332824
+maximization log likelihood percentage change is: 0.2372229062729009
+Maximization iteration #60
+current maximization log likelihood is: -0.04163199300535325
+maximization log likelihood percentage change is: 0.23665944517224963
+Maximization iteration #61
+current maximization log likelihood is: -0.04153370043098903
+maximization log likelihood percentage change is: 0.23609865218699408
+Maximization iteration #62
+current maximization log likelihood is: -0.04143587173535934
+maximization log likelihood percentage change is: 0.2355405239950526
+Maximization iteration #63
+current maximization log likelihood is: -0.04133850364854652
+maximization log likelihood percentage change is: 0.23498500872550032
+Maximization iteration #64
+current maximization log likelihood is: -0.04124159291933438
+maximization log likelihood percentage change is: 0.23443211693403454
+Maximization iteration #65
+current maximization log likelihood is: -0.04114513632890748
+maximization log likelihood percentage change is: 0.23388182560154458
+Maximization iteration #66
+current maximization log likelihood is: -0.04104913069267013
+maximization log likelihood percentage change is: 0.23333410653909945
+Maximization iteration #67
+current maximization log likelihood is: -0.04095357285331147
+maximization log likelihood percentage change is: 0.2327889476493229
+Maximization iteration #68
+current maximization log likelihood is: -0.04085845968347712
+maximization log likelihood percentage change is: 0.23224632970370507
+Maximization iteration #69
+current maximization log likelihood is: -0.04076378808434811
+maximization log likelihood percentage change is: 0.23170623626641348
+Maximization iteration #70
+current maximization log likelihood is: -0.04066955498711877
+maximization log likelihood percentage change is: 0.23116864662908274
+Maximization iteration #71
+current maximization log likelihood is: -0.04057575734952934
+maximization log likelihood percentage change is: 0.2306335479184385
+Maximization iteration #72
+current maximization log likelihood is: -0.04048239215671856
+maximization log likelihood percentage change is: 0.23010092456564402
+Maximization iteration #73
+current maximization log likelihood is: -0.04038945642531644
+maximization log likelihood percentage change is: 0.22957075027172746
+Maximization iteration #74
+current maximization log likelihood is: -0.04029694719577037
+maximization log likelihood percentage change is: 0.22904301699906435
+Maximization iteration #75
+current maximization log likelihood is: -0.040204861539109515
+maximization log likelihood percentage change is: 0.2285176994016107
+Maximization iteration #76
+current maximization log likelihood is: -0.04011319654966883
+maximization log likelihood percentage change is: 0.22799478951449612
+Maximization iteration #77
+current maximization log likelihood is: -0.040021949348158614
+maximization log likelihood percentage change is: 0.227474271209551
+Maximization iteration #78
+current maximization log likelihood is: -0.03993111708626884
+maximization log likelihood percentage change is: 0.22695611625412224
+Maximization iteration #79
+current maximization log likelihood is: -0.03984069693473202
+maximization log likelihood percentage change is: 0.22644032557734647
+Maximization iteration #80
+current maximization log likelihood is: -0.03975068609520349
+maximization log likelihood percentage change is: 0.22592686989384098
+Maximization iteration #81
+current maximization log likelihood is: -0.03966108179525918
+maximization log likelihood percentage change is: 0.22541573176802246
+Maximization iteration #82
+current maximization log likelihood is: -0.03957188128333655
+maximization log likelihood percentage change is: 0.22490690592632634
+Maximization iteration #83
+current maximization log likelihood is: -0.03948308183220206
+maximization log likelihood percentage change is: 0.22440037788116038
+Maximization iteration #84
+current maximization log likelihood is: -0.03939468074395336
+maximization log likelihood percentage change is: 0.22389611992395864
+Maximization iteration #85
+current maximization log likelihood is: -0.039306675342402286
+maximization log likelihood percentage change is: 0.22339412298595698
+Maximization iteration #86
+current maximization log likelihood is: -0.03921906297426858
+maximization log likelihood percentage change is: 0.22289437448094868
+Maximization iteration #87
+current maximization log likelihood is: -0.03913184101196521
+maximization log likelihood percentage change is: 0.22239685420480387
+Maximization iteration #88
+current maximization log likelihood is: -0.03904500684757295
+maximization log likelihood percentage change is: 0.22190155675452808
+Maximization iteration #89
+current maximization log likelihood is: -0.038958557902617486
+maximization log likelihood percentage change is: 0.22140845125972275
+Maximization iteration #90
+current maximization log likelihood is: -0.03887249161635964
+maximization log likelihood percentage change is: 0.22091753620085622
+Maximization iteration #91
+current maximization log likelihood is: -0.03878680545142288
+maximization log likelihood percentage change is: 0.22042879520668243
+Maximization iteration #92
+current maximization log likelihood is: -0.038701496893224885
+maximization log likelihood percentage change is: 0.21994221283533028
+Maximization iteration #93
+current maximization log likelihood is: -0.0386165634512281
+maximization log likelihood percentage change is: 0.21945776989222937
+Maximization iteration #94
+current maximization log likelihood is: -0.0385320026541649
+maximization log likelihood percentage change is: 0.2189754589892573
+Maximization iteration #95
+current maximization log likelihood is: -0.03844781205293657
+maximization log likelihood percentage change is: 0.21849526479057477
+Maximization iteration #96
+current maximization log likelihood is: -0.03836398922067019
+maximization log likelihood percentage change is: 0.21801717130474754
+Maximization iteration #97
+current maximization log likelihood is: -0.03828053175328705
+maximization log likelihood percentage change is: 0.21754116054796255
+Maximization iteration #98
+current maximization log likelihood is: -0.038197437263193024
+maximization log likelihood percentage change is: 0.21706723049083973
+Maximization iteration #99
+current maximization log likelihood is: -0.03811470338587242
+maximization log likelihood percentage change is: 0.2165953614912505
+reaching maximum maximization step: 100
+This is end of EM iteration #5.
+This is start of EM iteration #6.
+inside-em burn-in starts. time(s): 1413842088
+inside-em burn-in terminates. time(s): 1413842088
+word-label aggregate array: 
+Keywords to labels: 
+32.74701797811442 -31.747017978107493 
+Other words to labels: 
+-17.727212207682925 18.72721220768702 
+word-label matrix:
+[(32.74701797811442) (-31.747017978107493) ] [(-17.727212207682925) (18.72721220768702) ] 
+label-label matrix:
+[(8.994645906635503) (-5.518285828049226) ] [(-7.1639463705818445) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.9570474882275066) (12.362758282205625) ] [(5.867707877872705) (-18.587513648294202) ] 
+prediction-observation matrix:
+[(30.46218841739581) (-25.70971288078596) ] [(-26.462188417395712) (29.709712880785997) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -0.04865834106880129
+current expectation log likelihood is: -0.026489488409424666
+expectation log likelihood percentage change is: 45.56023113905712
+Maximization iteration #0
+current maximization log likelihood is: -0.026449433018910895
+maximization log likelihood percentage change is: 0.15121239751659382
+Maximization iteration #1
+current maximization log likelihood is: -0.02640949879435084
+maximization log likelihood percentage change is: 0.1509832915189682
+Maximization iteration #2
+current maximization log likelihood is: -0.02636968519027505
+maximization log likelihood percentage change is: 0.1507548643229285
+Maximization iteration #3
+current maximization log likelihood is: -0.02632999165751926
+maximization log likelihood percentage change is: 0.15052713928655442
+Maximization iteration #4
+current maximization log likelihood is: -0.026290417654365683
+maximization log likelihood percentage change is: 0.1503000975781689
+Maximization iteration #5
+current maximization log likelihood is: -0.026250962642279774
+maximization log likelihood percentage change is: 0.15007373638797122
+Maximization iteration #6
+current maximization log likelihood is: -0.02621162608289751
+maximization log likelihood percentage change is: 0.14984806431025213
+Maximization iteration #7
+current maximization log likelihood is: -0.02617240744581295
+maximization log likelihood percentage change is: 0.14962306024252564
+Maximization iteration #8
+current maximization log likelihood is: -0.026133306200506468
+maximization log likelihood percentage change is: 0.14939873371388532
+Maximization iteration #9
+current maximization log likelihood is: -0.02609432182043747
+maximization log likelihood percentage change is: 0.14917507861382054
+Maximization iteration #10
+current maximization log likelihood is: -0.026055453782191762
+maximization log likelihood percentage change is: 0.14895209200366177
+Maximization iteration #11
+current maximization log likelihood is: -0.026016701564287814
+maximization log likelihood percentage change is: 0.14872977545466526
+Maximization iteration #12
+current maximization log likelihood is: -0.025978064651440036
+maximization log likelihood percentage change is: 0.14850811411394918
+Maximization iteration #13
+current maximization log likelihood is: -0.025939542528874426
+maximization log likelihood percentage change is: 0.14828711485046758
+Maximization iteration #14
+current maximization log likelihood is: -0.02590113468392019
+maximization log likelihood percentage change is: 0.14806677840012922
+Maximization iteration #15
+current maximization log likelihood is: -0.02586284061231936
+maximization log likelihood percentage change is: 0.1478470810956563
+Maximization iteration #16
+current maximization log likelihood is: -0.025824659804641215
+maximization log likelihood percentage change is: 0.14762805157589118
+Maximization iteration #17
+current maximization log likelihood is: -0.02578659176185738
+maximization log likelihood percentage change is: 0.14740965833359262
+Maximization iteration #18
+current maximization log likelihood is: -0.025748635984825796
+maximization log likelihood percentage change is: 0.1471919103622178
+Maximization iteration #19
+current maximization log likelihood is: -0.02571079197537074
+maximization log likelihood percentage change is: 0.1469748124807823
+Maximization iteration #20
+current maximization log likelihood is: -0.02567305924236507
+maximization log likelihood percentage change is: 0.14675834584097683
+Maximization iteration #21
+current maximization log likelihood is: -0.02563543729365847
+maximization log likelihood percentage change is: 0.14654252285024966
+Maximization iteration #22
+current maximization log likelihood is: -0.025597925642443897
+maximization log likelihood percentage change is: 0.14632733112710244
+Maximization iteration #23
+current maximization log likelihood is: -0.025560523805779667
+maximization log likelihood percentage change is: 0.14611276392730202
+Maximization iteration #24
+current maximization log likelihood is: -0.025523231301747273
+maximization log likelihood percentage change is: 0.14589882553174052
+Maximization iteration #25
+current maximization log likelihood is: -0.025486047647973464
+maximization log likelihood percentage change is: 0.1456855259986753
+Maximization iteration #26
+current maximization log likelihood is: -0.02544897237174837
+maximization log likelihood percentage change is: 0.1454728357146579
+Maximization iteration #27
+current maximization log likelihood is: -0.02541200499894103
+maximization log likelihood percentage change is: 0.1452607683616253
+Maximization iteration #28
+current maximization log likelihood is: -0.025375145058205817
+maximization log likelihood percentage change is: 0.14504932112498867
+Maximization iteration #29
+current maximization log likelihood is: -0.025338392082744576
+maximization log likelihood percentage change is: 0.1448384841818092
+Maximization iteration #30
+current maximization log likelihood is: -0.02530174560558862
+maximization log likelihood percentage change is: 0.1446282662146946
+Maximization iteration #31
+current maximization log likelihood is: -0.025265205165908355
+maximization log likelihood percentage change is: 0.14441865098902495
+Maximization iteration #32
+current maximization log likelihood is: -0.025228770303783676
+maximization log likelihood percentage change is: 0.14420964280884802
+Maximization iteration #33
+current maximization log likelihood is: -0.02519244056139769
+maximization log likelihood percentage change is: 0.14400124123584052
+Maximization iteration #34
+current maximization log likelihood is: -0.025156215484685163
+maximization log likelihood percentage change is: 0.1437934392431738
+Maximization iteration #35
+current maximization log likelihood is: -0.025120094622195666
+maximization log likelihood percentage change is: 0.14358623423100778
+Maximization iteration #36
+current maximization log likelihood is: -0.025084077524354598
+maximization log likelihood percentage change is: 0.14337962648135813
+Maximization iteration #37
+current maximization log likelihood is: -0.025048163743633722
+maximization log likelihood percentage change is: 0.14317361555754246
+Maximization iteration #38
+current maximization log likelihood is: -0.025012352836427
+maximization log likelihood percentage change is: 0.14296819349013315
+Maximization iteration #39
+current maximization log likelihood is: -0.02497664436151581
+maximization log likelihood percentage change is: 0.14276335834821868
+Maximization iteration #40
+current maximization log likelihood is: -0.024941037880921613
+maximization log likelihood percentage change is: 0.14255910473329889
+Maximization iteration #41
+current maximization log likelihood is: -0.024905532954505816
+maximization log likelihood percentage change is: 0.14235544882017948
+Maximization iteration #42
+current maximization log likelihood is: -0.024870129151054243
+maximization log likelihood percentage change is: 0.1421523623535522
+Maximization iteration #43
+current maximization log likelihood is: -0.02483482603787479
+maximization log likelihood percentage change is: 0.14194985866390583
+Maximization iteration #44
+current maximization log likelihood is: -0.02479962318670914
+maximization log likelihood percentage change is: 0.14174792733383026
+Maximization iteration #45
+current maximization log likelihood is: -0.024764520170492688
+maximization log likelihood percentage change is: 0.14154657089816652
+Maximization iteration #46
+current maximization log likelihood is: -0.02472951656488931
+maximization log likelihood percentage change is: 0.1413457856739983
+Maximization iteration #47
+current maximization log likelihood is: -0.02469461194732503
+maximization log likelihood percentage change is: 0.14114557182179996
+Maximization iteration #48
+current maximization log likelihood is: -0.024659805899432286
+maximization log likelihood percentage change is: 0.1409459195673408
+Maximization iteration #49
+current maximization log likelihood is: -0.02462509800290036
+maximization log likelihood percentage change is: 0.1407468358569927
+Maximization iteration #50
+current maximization log likelihood is: -0.02459048784373863
+maximization log likelihood percentage change is: 0.1405483103362814
+Maximization iteration #51
+current maximization log likelihood is: -0.024555975009718622
+maximization log likelihood percentage change is: 0.14035034294284698
+Maximization iteration #52
+current maximization log likelihood is: -0.024521559089578204
+maximization log likelihood percentage change is: 0.14015293681801366
+Maximization iteration #53
+current maximization log likelihood is: -0.024487239676318495
+maximization log likelihood percentage change is: 0.13995608164366288
+Maximization iteration #54
+current maximization log likelihood is: -0.024453016364418545
+maximization log likelihood percentage change is: 0.13975977836753656
+Maximization iteration #55
+current maximization log likelihood is: -0.024418888750005863
+maximization log likelihood percentage change is: 0.13956402721073388
+Maximization iteration #56
+current maximization log likelihood is: -0.024384856432050128
+maximization log likelihood percentage change is: 0.1393688234716508
+Maximization iteration #57
+current maximization log likelihood is: -0.024350919013613748
+maximization log likelihood percentage change is: 0.13917415725185509
+Maximization iteration #58
+current maximization log likelihood is: -0.024317076095712764
+maximization log likelihood percentage change is: 0.13898004375959364
+Maximization iteration #59
+current maximization log likelihood is: -0.024283327283740164
+maximization log likelihood percentage change is: 0.13878647185937987
+Maximization iteration #60
+current maximization log likelihood is: -0.024249672187750093
+maximization log likelihood percentage change is: 0.13859342913277628
+Maximization iteration #61
+current maximization log likelihood is: -0.024216110416773517
+maximization log likelihood percentage change is: 0.1384009264815119
+Maximization iteration #62
+current maximization log likelihood is: -0.02418264158330885
+maximization log likelihood percentage change is: 0.13820895630490937
+Maximization iteration #63
+current maximization log likelihood is: -0.024149265301161904
+maximization log likelihood percentage change is: 0.13801751984772018
+Maximization iteration #64
+current maximization log likelihood is: -0.02411598118646907
+maximization log likelihood percentage change is: 0.13782661409261046
+Maximization iteration #65
+current maximization log likelihood is: -0.02408278885781101
+maximization log likelihood percentage change is: 0.13763623549633508
+Maximization iteration #66
+current maximization log likelihood is: -0.024049687936496866
+maximization log likelihood percentage change is: 0.1374463792776569
+Maximization iteration #67
+current maximization log likelihood is: -0.02401667804412
+maximization log likelihood percentage change is: 0.13725705075271613
+Maximization iteration #68
+current maximization log likelihood is: -0.023983758807901268
+maximization log likelihood percentage change is: 0.1370682329931595
+Maximization iteration #69
+current maximization log likelihood is: -0.023950929853583602
+maximization log likelihood percentage change is: 0.13687993854762226
+Maximization iteration #70
+current maximization log likelihood is: -0.02391819080787627
+maximization log likelihood percentage change is: 0.13669216981332422
+Maximization iteration #71
+current maximization log likelihood is: -0.023885541303798163
+maximization log likelihood percentage change is: 0.13650490683165215
+Maximization iteration #72
+current maximization log likelihood is: -0.023852980974822913
+maximization log likelihood percentage change is: 0.13631815398746336
+Maximization iteration #73
+current maximization log likelihood is: -0.023820509455617866
+maximization log likelihood percentage change is: 0.13613191256606566
+Maximization iteration #74
+current maximization log likelihood is: -0.023788126382271457
+maximization log likelihood percentage change is: 0.1359461828754966
+Maximization iteration #75
+current maximization log likelihood is: -0.023755831394453253
+maximization log likelihood percentage change is: 0.1357609561141092
+Maximization iteration #76
+current maximization log likelihood is: -0.02372362413149176
+maximization log likelihood percentage change is: 0.13557623989961598
+Maximization iteration #77
+current maximization log likelihood is: -0.023691504240161976
+maximization log likelihood percentage change is: 0.13539200904446783
+Maximization iteration #78
+current maximization log likelihood is: -0.02365947136053137
+maximization log likelihood percentage change is: 0.135208297902433
+Maximization iteration #79
+current maximization log likelihood is: -0.023627525142956074
+maximization log likelihood percentage change is: 0.1350250691931713
+Maximization iteration #80
+current maximization log likelihood is: -0.023595665233301588
+maximization log likelihood percentage change is: 0.1348423479044906
+Maximization iteration #81
+current maximization log likelihood is: -0.023563891284254623
+maximization log likelihood percentage change is: 0.13466011122297536
+Maximization iteration #82
+current maximization log likelihood is: -0.023532202946739744
+maximization log likelihood percentage change is: 0.1344783725769997
+Maximization iteration #83
+current maximization log likelihood is: -0.023500599875148964
+maximization log likelihood percentage change is: 0.1342971232328185
+Maximization iteration #84
+current maximization log likelihood is: -0.0234690817272849
+maximization log likelihood percentage change is: 0.1341163546101297
+Maximization iteration #85
+current maximization log likelihood is: -0.02343764816055227
+maximization log likelihood percentage change is: 0.13393607426951903
+Maximization iteration #86
+current maximization log likelihood is: -0.02340629883241263
+maximization log likelihood percentage change is: 0.1337562878531654
+Maximization iteration #87
+current maximization log likelihood is: -0.023375033406637158
+maximization log likelihood percentage change is: 0.13357697429794907
+Maximization iteration #88
+current maximization log likelihood is: -0.02334385154716756
+maximization log likelihood percentage change is: 0.13339813863429173
+Maximization iteration #89
+current maximization log likelihood is: -0.023312752918457136
+maximization log likelihood percentage change is: 0.13321978443697569
+Maximization iteration #90
+current maximization log likelihood is: -0.023281737187630824
+maximization log likelihood percentage change is: 0.13304190601083307
+Maximization iteration #91
+current maximization log likelihood is: -0.02325080402204094
+maximization log likelihood percentage change is: 0.132864508093151
+Maximization iteration #92
+current maximization log likelihood is: -0.023219953094610446
+maximization log likelihood percentage change is: 0.1326875724437179
+Maximization iteration #93
+current maximization log likelihood is: -0.023189184077580194
+maximization log likelihood percentage change is: 0.13251110760165102
+Maximization iteration #94
+current maximization log likelihood is: -0.02315849664404368
+maximization log likelihood percentage change is: 0.13233511551699217
+Maximization iteration #95
+current maximization log likelihood is: -0.023127890468288115
+maximization log likelihood percentage change is: 0.13215959665256247
+Maximization iteration #96
+current maximization log likelihood is: -0.02309736523028505
+maximization log likelihood percentage change is: 0.13198453203036373
+Maximization iteration #97
+current maximization log likelihood is: -0.02306692060875548
+maximization log likelihood percentage change is: 0.13180993254438256
+Maximization iteration #98
+current maximization log likelihood is: -0.02303655628395518
+maximization log likelihood percentage change is: 0.13163579705900302
+Maximization iteration #99
+current maximization log likelihood is: -0.02300627193881155
+maximization log likelihood percentage change is: 0.13146211946930755
+reaching maximum maximization step: 100
+This is end of EM iteration #6.
+This is start of EM iteration #7.
+inside-em burn-in starts. time(s): 1413842104
+inside-em burn-in terminates. time(s): 1413842104
+word-label aggregate array: 
+Keywords to labels: 
+32.74701797811337 -31.747017978107493 
+Other words to labels: 
+-17.702540850629862 18.702540850633657 
+word-label matrix:
+[(32.74701797811337) (-31.747017978107493) ] [(-17.702540850629862) (18.702540850633657) ] 
+label-label matrix:
+[(9.019317263687945) (-5.5387523335893) ] [(-7.168151222094775) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.9570487484183445) (12.387428379069739) ] [(5.867708204201195) (-18.61218533167622) ] 
+prediction-observation matrix:
+[(30.462188576047808) (-25.70971288078596) ] [(-26.462188576047716) (29.70971288078601) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....previous expectation log likelihood is: -0.026489488409424666
+current expectation log likelihood is: -0.025103579344772697
+expectation log likelihood percentage change is: 5.231920840565867
+Maximization iteration #0
+current maximization log likelihood is: -0.02506783013717495
+maximization log likelihood percentage change is: 0.1424068142107001
+Maximization iteration #1
+current maximization log likelihood is: -0.025032182778375045
+maximization log likelihood percentage change is: 0.1422036075912374
+Maximization iteration #2
+current maximization log likelihood is: -0.02499663683209974
+maximization log likelihood percentage change is: 0.14200098565121416
+Maximization iteration #3
+current maximization log likelihood is: -0.02496119186434953
+maximization log likelihood percentage change is: 0.14179894674747523
+Maximization iteration #4
+current maximization log likelihood is: -0.024925847446127136
+maximization log likelihood percentage change is: 0.14159747825533137
+Maximization iteration #5
+current maximization log likelihood is: -0.02489060315019742
+maximization log likelihood percentage change is: 0.14139658042074355
+Maximization iteration #6
+current maximization log likelihood is: -0.024855458552281107
+maximization log likelihood percentage change is: 0.14119624865754116
+Maximization iteration #7
+current maximization log likelihood is: -0.024820413227985227
+maximization log likelihood percentage change is: 0.1409964906588415
+Maximization iteration #8
+current maximization log likelihood is: -0.02478546675877169
+maximization log likelihood percentage change is: 0.1407972900875583
+Maximization iteration #9
+current maximization log likelihood is: -0.024750618724965534
+maximization log likelihood percentage change is: 0.14059865866283688
+Maximization iteration #10
+current maximization log likelihood is: -0.02471586871212139
+maximization log likelihood percentage change is: 0.14040058242701917
+Maximization iteration #11
+current maximization log likelihood is: -0.02468121630784026
+maximization log likelihood percentage change is: 0.14020306016651526
+Maximization iteration #12
+current maximization log likelihood is: -0.024646661100462097
+maximization log likelihood percentage change is: 0.1400060959199366
+Maximization iteration #13
+current maximization log likelihood is: -0.024612202679747952
+maximization log likelihood percentage change is: 0.13980969095038645
+Maximization iteration #14
+current maximization log likelihood is: -0.0245778406412569
+maximization log likelihood percentage change is: 0.13961382870996888
+Maximization iteration #15
+current maximization log likelihood is: -0.024543574581059602
+maximization log likelihood percentage change is: 0.13941851400800792
+Maximization iteration #16
+current maximization log likelihood is: -0.02450940409590885
+maximization log likelihood percentage change is: 0.13922375095729728
+Maximization iteration #17
+current maximization log likelihood is: -0.024475328788071238
+maximization log likelihood percentage change is: 0.13902952395035562
+Maximization iteration #18
+current maximization log likelihood is: -0.024441348258164908
+maximization log likelihood percentage change is: 0.13883584649899144
+Maximization iteration #19
+current maximization log likelihood is: -0.024407462114083955
+maximization log likelihood percentage change is: 0.13864269566075316
+Maximization iteration #20
+current maximization log likelihood is: -0.024373669960198185
+maximization log likelihood percentage change is: 0.1384500925488304
+Maximization iteration #21
+current maximization log likelihood is: -0.02433997140684596
+maximization log likelihood percentage change is: 0.1382580194416886
+Maximization iteration #22
+current maximization log likelihood is: -0.024306366065673046
+maximization log likelihood percentage change is: 0.13806647761082982
+Maximization iteration #23
+current maximization log likelihood is: -0.024272853549234696
+maximization log likelihood percentage change is: 0.13787546993986197
+Maximization iteration #24
+current maximization log likelihood is: -0.02423943347423574
+maximization log likelihood percentage change is: 0.13768498595012296
+Maximization iteration #25
+current maximization log likelihood is: -0.0242061054586884
+maximization log likelihood percentage change is: 0.13749502678255623
+Maximization iteration #26
+current maximization log likelihood is: -0.02417286912123018
+maximization log likelihood percentage change is: 0.13730559637089584
+Maximization iteration #27
+current maximization log likelihood is: -0.02413972408527343
+maximization log likelihood percentage change is: 0.13711668147675388
+Maximization iteration #28
+current maximization log likelihood is: -0.02410666997440103
+maximization log likelihood percentage change is: 0.13692828781155797
+Maximization iteration #29
+current maximization log likelihood is: -0.02407370641532225
+maximization log likelihood percentage change is: 0.1367404088320136
+Maximization iteration #30
+current maximization log likelihood is: -0.024040833034518982
+maximization log likelihood percentage change is: 0.13655305184889863
+Maximization iteration #31
+current maximization log likelihood is: -0.02400804946404378
+maximization log likelihood percentage change is: 0.13636620007356268
+Maximization iteration #32
+current maximization log likelihood is: -0.02397535533464179
+maximization log likelihood percentage change is: 0.1361798652195966
+Maximization iteration #33
+current maximization log likelihood is: -0.023942750282174075
+maximization log likelihood percentage change is: 0.13599403225780332
+Maximization iteration #34
+current maximization log likelihood is: -0.02391023394113745
+maximization log likelihood percentage change is: 0.1358087130902208
+Maximization iteration #35
+current maximization log likelihood is: -0.023877805952224662
+maximization log likelihood percentage change is: 0.13562388804985434
+Maximization iteration #36
+current maximization log likelihood is: -0.023845465953115763
+maximization log likelihood percentage change is: 0.13543957587060462
+Maximization iteration #37
+current maximization log likelihood is: -0.02381321358797095
+maximization log likelihood percentage change is: 0.13525575557310265
+Maximization iteration #38
+current maximization log likelihood is: -0.02378104849930196
+maximization log likelihood percentage change is: 0.13507244013986175
+Maximization iteration #39
+current maximization log likelihood is: -0.023748970333087982
+maximization log likelihood percentage change is: 0.13488962109858002
+Maximization iteration #40
+current maximization log likelihood is: -0.023716978740537797
+maximization log likelihood percentage change is: 0.13470728246947472
+Maximization iteration #41
+current maximization log likelihood is: -0.023685073365811604
+maximization log likelihood percentage change is: 0.13452545990463616
+Maximization iteration #42
+current maximization log likelihood is: -0.023653253866143586
+maximization log likelihood percentage change is: 0.13434410430810725
+Maximization iteration #43
+current maximization log likelihood is: -0.023621519891264597
+maximization log likelihood percentage change is: 0.1341632532190929
+Maximization iteration #44
+current maximization log likelihood is: -0.023589871098295134
+maximization log likelihood percentage change is: 0.13398288135204647
+Maximization iteration #45
+current maximization log likelihood is: -0.02355830714412832
+maximization log likelihood percentage change is: 0.13380299551146976
+Maximization iteration #46
+current maximization log likelihood is: -0.02352682768815839
+maximization log likelihood percentage change is: 0.13362359093690376
+Maximization iteration #47
+current maximization log likelihood is: -0.023495432392337534
+maximization log likelihood percentage change is: 0.13344466256561832
+Maximization iteration #48
+current maximization log likelihood is: -0.023464120916230513
+maximization log likelihood percentage change is: 0.13326622632079113
+Maximization iteration #49
+current maximization log likelihood is: -0.023432892930031812
+maximization log likelihood percentage change is: 0.13308824272679193
+Maximization iteration #50
+current maximization log likelihood is: -0.023401748094443064
+maximization log likelihood percentage change is: 0.13291075788953186
+Maximization iteration #51
+current maximization log likelihood is: -0.023370686079147163
+maximization log likelihood percentage change is: 0.1327337392512046
+Maximization iteration #52
+current maximization log likelihood is: -0.023339706554565964
+maximization log likelihood percentage change is: 0.13255718927669943
+Maximization iteration #53
+current maximization log likelihood is: -0.02330880919402034
+maximization log likelihood percentage change is: 0.13238110116503848
+Maximization iteration #54
+current maximization log likelihood is: -0.023277993668159525
+maximization log likelihood percentage change is: 0.13220549194217157
+Maximization iteration #55
+current maximization log likelihood is: -0.023247259654112895
+maximization log likelihood percentage change is: 0.1320303394045018
+Maximization iteration #56
+current maximization log likelihood is: -0.023216606826565567
+maximization log likelihood percentage change is: 0.13185565956332085
+Maximization iteration #57
+current maximization log likelihood is: -0.023186034866228056
+maximization log likelihood percentage change is: 0.1316814320279097
+Maximization iteration #58
+current maximization log likelihood is: -0.023155543453469818
+maximization log likelihood percentage change is: 0.1315076637042867
+Maximization iteration #59
+current maximization log likelihood is: -0.023125132267807658
+maximization log likelihood percentage change is: 0.13133436372707208
+Maximization iteration #60
+current maximization log likelihood is: -0.023094800996148024
+maximization log likelihood percentage change is: 0.1311615056224251
+Maximization iteration #61
+current maximization log likelihood is: -0.023064549320451988
+maximization log likelihood percentage change is: 0.13098911612653205
+Maximization iteration #62
+current maximization log likelihood is: -0.023034376927910216
+maximization log likelihood percentage change is: 0.1308171780101384
+Maximization iteration #63
+current maximization log likelihood is: -0.02300428350963557
+maximization log likelihood percentage change is: 0.13064567958068996
+Maximization iteration #64
+current maximization log likelihood is: -0.02297426875406927
+maximization log likelihood percentage change is: 0.13047463770704648
+Maximization iteration #65
+current maximization log likelihood is: -0.02294433235493898
+maximization log likelihood percentage change is: 0.1303040347039996
+Maximization iteration #66
+current maximization log likelihood is: -0.022914474001368035
+maximization log likelihood percentage change is: 0.13013389585300675
+Maximization iteration #67
+current maximization log likelihood is: -0.022884693392995814
+maximization log likelihood percentage change is: 0.1299641805892764
+Maximization iteration #68
+current maximization log likelihood is: -0.02285499022463
+maximization log likelihood percentage change is: 0.1297949151239422
+Maximization iteration #69
+current maximization log likelihood is: -0.02282536419289727
+maximization log likelihood percentage change is: 0.12962609671477987
+Maximization iteration #70
+current maximization log likelihood is: -0.02279581500005179
+maximization log likelihood percentage change is: 0.12945770589138922
+Maximization iteration #71
+current maximization log likelihood is: -0.02276634234510766
+maximization log likelihood percentage change is: 0.12928976193245278
+Maximization iteration #72
+current maximization log likelihood is: -0.022736945933218067
+maximization log likelihood percentage change is: 0.12912224301990238
+Maximization iteration #73
+current maximization log likelihood is: -0.022707625467319303
+maximization log likelihood percentage change is: 0.12895516392079268
+Maximization iteration #74
+current maximization log likelihood is: -0.02267838065296246
+maximization log likelihood percentage change is: 0.1287885181959362
+Maximization iteration #75
+current maximization log likelihood is: -0.02264921119956398
+maximization log likelihood percentage change is: 0.12862229382621548
+Maximization iteration #76
+current maximization log likelihood is: -0.02262011681415288
+maximization log likelihood percentage change is: 0.12845650629837083
+Maximization iteration #77
+current maximization log likelihood is: -0.02259109720637298
+maximization log likelihood percentage change is: 0.1282911490613704
+Maximization iteration #78
+current maximization log likelihood is: -0.022562152091722965
+maximization log likelihood percentage change is: 0.1281262011561293
+Maximization iteration #79
+current maximization log likelihood is: -0.022533281179732967
+maximization log likelihood percentage change is: 0.12796169386957162
+Maximization iteration #80
+current maximization log likelihood is: -0.02250448418800488
+maximization log likelihood percentage change is: 0.12779759635710278
+Maximization iteration #81
+current maximization log likelihood is: -0.02247576083078684
+maximization log likelihood percentage change is: 0.12763392832327633
+Maximization iteration #82
+current maximization log likelihood is: -0.02244711082687445
+maximization log likelihood percentage change is: 0.1274706744215981
+Maximization iteration #83
+current maximization log likelihood is: -0.0224185338960865
+maximization log likelihood percentage change is: 0.12730783488508382
+Maximization iteration #84
+current maximization log likelihood is: -0.02239002975773019
+maximization log likelihood percentage change is: 0.1271454167718211
+Maximization iteration #85
+current maximization log likelihood is: -0.022361598135262284
+maximization log likelihood percentage change is: 0.12698340634446867
+Maximization iteration #86
+current maximization log likelihood is: -0.022333238751002682
+maximization log likelihood percentage change is: 0.12682181339660903
+Maximization iteration #87
+current maximization log likelihood is: -0.02230495132988608
+maximization log likelihood percentage change is: 0.12666063096348604
+Maximization iteration #88
+current maximization log likelihood is: -0.022276735599859876
+maximization log likelihood percentage change is: 0.12649985023010746
+Maximization iteration #89
+current maximization log likelihood is: -0.022248591285688235
+maximization log likelihood percentage change is: 0.12633949011729484
+Maximization iteration #90
+current maximization log likelihood is: -0.022220518119524968
+maximization log likelihood percentage change is: 0.12617952212248906
+Maximization iteration #91
+current maximization log likelihood is: -0.022192515829033255
+maximization log likelihood percentage change is: 0.12601997100647194
+Maximization iteration #92
+current maximization log likelihood is: -0.022164584147844835
+maximization log likelihood percentage change is: 0.12586081453585604
+Maximization iteration #93
+current maximization log likelihood is: -0.02213672280862511
+maximization log likelihood percentage change is: 0.1257020616036907
+Maximization iteration #94
+current maximization log likelihood is: -0.02210893154523319
+maximization log likelihood percentage change is: 0.12554371138030576
+Maximization iteration #95
+current maximization log likelihood is: -0.02208121009351771
+maximization log likelihood percentage change is: 0.12538575941023167
+Maximization iteration #96
+current maximization log likelihood is: -0.02205355819222632
+maximization log likelihood percentage change is: 0.12522819707018654
+Maximization iteration #97
+current maximization log likelihood is: -0.02202597557862873
+maximization log likelihood percentage change is: 0.12507103550895585
+Maximization iteration #98
+current maximization log likelihood is: -0.021998461991415752
+maximization log likelihood percentage change is: 0.12491427276290652
+Maximization iteration #99
+current maximization log likelihood is: -0.02197101717354144
+maximization log likelihood percentage change is: 0.124757893915588
+reaching maximum maximization step: 100
+This is end of EM iteration #7.
+This is start of EM iteration #8.
+inside-em burn-in starts. time(s): 1413842133
+inside-em burn-in terminates. time(s): 1413842133
+word-label aggregate array: 
+Keywords to labels: 
+32.74701797811194 -31.747017978107493 
+Other words to labels: 
+-17.679066859704307 18.679066859708232 
+word-label matrix:
+[(32.74701797811194) (-31.747017978107493) ] [(-17.679066859704307) (18.679066859708232) ] 
+label-label matrix:
+[(9.042791254611636) (-5.55753760333841) ] [(-7.172839943271158) (7.6875862920032025) ] 
+label-prediction matrix:
+[(2.9570489794798385) (12.410902138931169) ] [(5.867708268276325) (-18.635659386676828) ] 
+prediction-observation matrix:
+[(30.462188605561508) (-25.70971288078596) ] [(-26.462188605561387) (29.70971288078596) ] 
+example#0
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#1
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#2
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#3
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#4
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#5
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#6
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#7
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#8
+1
+1
+0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 
+example#9
+0
+0
+0 1 1 1 1 1 1 1 1 0 
+0 1 1 1 1 1 1 1 1 0 
+example#10
+0
+0
+1 0 0 0 0 0 0 0 0 1 
+1 0 0 0 0 0 0 0 0 1 
+
+
+word-label count matrix:
+[(58.0) (0.0) ] [(10.0) (42.0) ] 
+label-label count matrix
+[(52.0) (6.0) ] [(6.0) (35.0) ] 
+label-prediction count matrix:
+[(18.0) (50.0) ] [(42.0) (0.0) ] 
+prediction-observation count matrix:
+[(6.0) (0.0) ] [(0.0) (5.0) ] 
+Press enter to exit....

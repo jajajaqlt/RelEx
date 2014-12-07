@@ -1,12 +1,13 @@
 package part2;
 
-import java.io.BufferedReader; 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 import org.apache.commons.math3.distribution.EnumeratedIntegerDistribution;
 import org.apache.commons.math3.distribution.GammaDistribution;
@@ -52,8 +53,8 @@ public class GeneralRelationExtractor {
 	/*
 	 * IO
 	 */
-	public static String inputFile = "synthetic9";
-	public static String testFile = "synthetic9_test";
+	public static String inputFile = "synthetic10";
+	public static String testFile = "synthetic10_test";
 	public static boolean printCollections = false;
 	public static boolean printWeightMatrices = false;
 	public static boolean printWordLabelMatrices = true;
@@ -63,7 +64,7 @@ public class GeneralRelationExtractor {
 	/*
 	 * Testing
 	 */
-	public static int testingBurnInSteps = 50;
+	public static int testingBurnInSteps = 100;
 
 	/*
 	 * Distribution
@@ -94,12 +95,12 @@ public class GeneralRelationExtractor {
 	 * Algorithm parameters
 	 */
 	public static int numOfExpectationSamples = 10;
-	public static double stepSize = 0.0001;
+	public static double stepSize = 0.000001;
 	public static int initialBurnInSteps = 500;
 	public static int samplingGap = 5;
 	public static int emBurnInSteps = 50;
-	public static int maxEStep = 40;
-	public static int maxMStep = 100;
+	public static int maxEStep = 50;
+	public static int maxMStep = 200;
 	public static double expectationTerminalPercentage = 0.01;
 	public static double maximizationTerminalPercentage = 0.01;
 
@@ -362,17 +363,58 @@ public class GeneralRelationExtractor {
 		// synthetic data testing
 		// **************************************************//
 		ArrayList<TrainingExample> test_examples = new ArrayList<TrainingExample>();
+		// First half of testing examples are negative. The rest are positive.
 		test_examples.addAll(makeTrainingExamplesFromSyntheticData(testFile));
 		assignInitialValuesForLatentVariables(test_examples,
 				numOfAbstractLabels);
 		burnIn(testingBurnInSteps, test_examples);
 		System.out.println("Testing result:");
 		printExamples(test_examples);
+		// Synthetic Data AUC Testing Result
 		// **************************************************//
-
+		double AUC = calculateAUC(test_examples);
+		System.out.println("AUC is " + AUC);
 		// System.out.println("Final newly found relation.");
 		// printNewlyFoundRelation(temp);
 
+	}
+
+	private static double calculateAUC(ArrayList<TrainingExample> test_examples) {
+		int size = test_examples.size();
+		int n_0 = size / 2, n_1 = size / 2;
+		int S_0 = 0;
+		double prob;
+		double AUC;
+		int rank = 0;
+		int index;
+		// P for positive examples, N for negative examples
+		String flag;
+
+		EnumeratedIntegerDistribution dist;
+		TrainingExample example;
+		TreeMap<Double, Integer> probIndexMap = new TreeMap<Double, Integer>();
+		for (int i = 0; i < test_examples.size(); i++) {
+			example = test_examples.get(i);
+			dist = getEnumeratedIntegerDistributionForPredictionNode(example);
+			probIndexMap.put(dist.probability(1), i);
+		}
+		// Set<Map.Entry<K,V>> entrySet()
+
+		for (Map.Entry<Double, Integer> entry : probIndexMap.entrySet()) {
+			prob = entry.getKey();
+			index = entry.getValue();
+			if (index < (size / 2))
+				flag = "N";
+			else {
+				flag = "P";
+				S_0 += rank;
+			}
+			System.out.println("r" + rank + " " + flag + " #" + index + " "
+					+ prob);
+			rank++;
+		}
+		AUC = (S_0 - n_0 * (n_0 + 1) * 1.0 / 2) / (n_0 * n_1);
+		return AUC;
 	}
 
 	private static void emptyLabelLabelMatrix() {
@@ -1222,11 +1264,14 @@ public class GeneralRelationExtractor {
 	private static void printExamples(ArrayList<TrainingExample> examples) {
 		TrainingExample example;
 		ArrayList<Integer> indices;
+		EnumeratedIntegerDistribution dist;
 		for (int j = 0; j < examples.size(); j++) {
 			example = examples.get(j);
+			dist = getEnumeratedIntegerDistributionForPredictionNode(example);
 			System.out.println("example#" + j);
 			System.out.println(example.observedRelation);
-			System.out.println(example.predictedRelation);
+			System.out.println("" + example.predictedRelation + " ("
+					+ dist.probability(1) + ")");
 
 			indices = example.labels;
 			for (int j2 = 0; j2 < example.chainLength; j2++) {
@@ -1350,6 +1395,8 @@ public class GeneralRelationExtractor {
 
 		System.out.println();
 
+		String delimiter = "\n";
+
 		if (printWordLabelMatrices) {
 			System.out.println("word-label matrix:");
 			for (int i = 0; i < numOfAllCUIs; i++) {
@@ -1359,6 +1406,7 @@ public class GeneralRelationExtractor {
 							+ ") ");
 				}
 				System.out.print("] ");
+				System.out.print(delimiter);
 			}
 			System.out.println();
 		}
@@ -1370,6 +1418,7 @@ public class GeneralRelationExtractor {
 				System.out.print("(" + labelIndexLabelIndexMatrix[i][j] + ") ");
 			}
 			System.out.print("] ");
+			System.out.print(delimiter);
 		}
 		System.out.println();
 		System.out.println("label-prediction matrix:");
@@ -1380,6 +1429,7 @@ public class GeneralRelationExtractor {
 						+ ") ");
 			}
 			System.out.print("] ");
+			System.out.print(delimiter);
 		}
 		System.out.println();
 		System.out.println("prediction-observation matrix:");
@@ -1390,6 +1440,7 @@ public class GeneralRelationExtractor {
 						+ ") ");
 			}
 			System.out.print("] ");
+			// System.out.print(delimiter);
 		}
 		System.out.println();
 	}

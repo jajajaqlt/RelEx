@@ -15,6 +15,8 @@ public class TrainingExample {
 	public int observedRelation;
 	public int predictedRelation;
 	public ArrayList<DenominatorExample> denominatorExamples;
+	// probability for prediction node to be one
+	public double predProb;
 	
 	public TrainingExample() {
 		wordIndices = new ArrayList<Integer>();
@@ -23,6 +25,7 @@ public class TrainingExample {
 		observedRelation = 0;
 		denominatorExamples = new ArrayList<DenominatorExample>();
 		distinctWordIndices = new ArrayList<Integer>();
+		predProb = 0;
 	}
 
 	public TrainingExample getDeepCopy() {
@@ -38,6 +41,7 @@ public class TrainingExample {
 		}
 		example.observedRelation = this.observedRelation;
 		example.predictedRelation = this.predictedRelation;
+		example.predProb = this.predProb;
 		return example;
 	}
 }

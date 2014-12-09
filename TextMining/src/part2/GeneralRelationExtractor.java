@@ -54,7 +54,7 @@ public class GeneralRelationExtractor {
 	 * IO
 	 */
 	public static String inputFile = "synthetic10";
-	public static String testFile = "synthetic10_test";
+	public static String testFile = "synthetic11_test";
 	public static boolean printCollections = false;
 	public static boolean printWeightMatrices = false;
 	public static boolean printWordLabelMatrices = true;
@@ -64,7 +64,8 @@ public class GeneralRelationExtractor {
 	/*
 	 * Testing
 	 */
-	public static int testingBurnInSteps = 100;
+	public static int testingBurnInSteps = 500;
+	public static int predProbSteps = 1000;
 
 	/*
 	 * Distribution
@@ -99,8 +100,8 @@ public class GeneralRelationExtractor {
 	public static int initialBurnInSteps = 500;
 	public static int samplingGap = 5;
 	public static int emBurnInSteps = 50;
-	public static int maxEStep = 50;
-	public static int maxMStep = 200;
+	public static int maxEStep = 20;
+	public static int maxMStep = 100;
 	public static double expectationTerminalPercentage = 0.01;
 	public static double maximizationTerminalPercentage = 0.01;
 
@@ -387,34 +388,94 @@ public class GeneralRelationExtractor {
 		double AUC;
 		int rank = 0;
 		int index;
+		ArrayList<Integer> indices;
 		// P for positive examples, N for negative examples
 		String flag;
 
 		EnumeratedIntegerDistribution dist;
 		TrainingExample example;
-		TreeMap<Double, Integer> probIndexMap = new TreeMap<Double, Integer>();
+		// key: probability, value; indices; sort according to probability of
+		// being 1 from smallest to biggest
+		// TreeMap<Double, Integer> probIndexMap = new TreeMap<Double,
+		// Integer>();
+		// key: probability, value; indices; sort according to probability of
+
+		TreeMap<Double, ArrayList<Integer>> probIndexMap = new TreeMap<Double, ArrayList<Integer>>();
+
+		double predProb;
+		ArrayList<Integer> arr;
+
 		for (int i = 0; i < test_examples.size(); i++) {
 			example = test_examples.get(i);
-			dist = getEnumeratedIntegerDistributionForPredictionNode(example);
-			probIndexMap.put(dist.probability(1), i);
+			// dist =
+			// getEnumeratedIntegerDistributionForPredictionNode(example);
+			// probIndexMap.put(dist.probability(1), i);
+			predProb = 0;
+			for (int j = 0; j < predProbSteps; j++) {
+				updateSingleExampleUsingGibbsSampling(example);
+				predProb += 1.0 * example.predictedRelation / predProbSteps;
+			}
+			example.predProb = predProb;
+			arr = probIndexMap.get(predictedNodeObservedNodeMatrix);
+			if (arr != null) {
+				arr.add(i);
+			} else {
+				arr = new ArrayList<Integer>();
+				arr.add(i);
+			}
+			probIndexMap.put(example.predProb, arr);
 		}
 		// Set<Map.Entry<K,V>> entrySet()
 
-		for (Map.Entry<Double, Integer> entry : probIndexMap.entrySet()) {
+		for (Map.Entry<Double, ArrayList<Integer>> entry : probIndexMap
+				.entrySet()) {
 			prob = entry.getKey();
-			index = entry.getValue();
-			if (index < (size / 2))
-				flag = "N";
-			else {
-				flag = "P";
-				S_0 += rank;
+			indices = entry.getValue();
+			for (int i = 0; i < indices.size(); i++) {
+				index = indices.get(i);
+				if (index < (size / 2))
+					flag = "N";
+				else {
+					flag = "P";
+					S_0 += rank;
+				}
+				System.out.println("r" + rank + " " + flag + " #" + index + " "
+						+ prob);
+				rank++;
 			}
-			System.out.println("r" + rank + " " + flag + " #" + index + " "
-					+ prob);
-			rank++;
 		}
 		AUC = (S_0 - n_0 * (n_0 + 1) * 1.0 / 2) / (n_0 * n_1);
 		return AUC;
+	}
+
+	private static void updateSingleExampleUsingGibbsSampling(
+			TrainingExample example) {
+		int chainLength;
+		EnumeratedIntegerDistribution dist;
+		chainLength = example.chainLength;
+		// sampling for chain
+		for (int j = 0; j < chainLength; j++) {
+			if (j == 0)
+				dist = getEnumeratedIntegerDistributionForChain("l",
+						example.wordIndices.get(j), null,
+						example.labels.get(j + 1), example.predictedRelation);
+			else if (j == chainLength - 1)
+				dist = getEnumeratedIntegerDistributionForChain("r",
+						example.wordIndices.get(j), example.labels.get(j - 1),
+						null, example.predictedRelation);
+			else
+				dist = getEnumeratedIntegerDistributionForChain("m",
+						example.wordIndices.get(j), example.labels.get(j - 1),
+						example.labels.get(j + 1), example.predictedRelation);
+			example.labels.set(j, dist.sample());
+		}
+		// sampling for latent predicted node
+		dist = getEnumeratedIntegerDistributionForPredictionNode(example);
+		example.predictedRelation = dist.sample();
+		if (isObservedVariableLatent) {
+			dist = getEnumeratedIntegerDistributionForObservationNode(example);
+			example.observedRelation = dist.sample();
+		}
 	}
 
 	private static void emptyLabelLabelMatrix() {

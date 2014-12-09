@@ -53,7 +53,7 @@ public class GeneralRelationExtractor {
 	/*
 	 * IO
 	 */
-	public static String inputFile = "synthetic10";
+	public static String inputFile = "synthetic11";
 	public static String testFile = "synthetic11_test";
 	public static boolean printCollections = false;
 	public static boolean printWeightMatrices = false;
@@ -96,12 +96,12 @@ public class GeneralRelationExtractor {
 	 * Algorithm parameters
 	 */
 	public static int numOfExpectationSamples = 10;
-	public static double stepSize = 0.000001;
+	public static double stepSize = 0.0001;
 	public static int initialBurnInSteps = 500;
 	public static int samplingGap = 5;
 	public static int emBurnInSteps = 50;
 	public static int maxEStep = 20;
-	public static int maxMStep = 100;
+	public static int maxMStep = 10000;
 	public static double expectationTerminalPercentage = 0.01;
 	public static double maximizationTerminalPercentage = 0.01;
 
@@ -416,7 +416,7 @@ public class GeneralRelationExtractor {
 				predProb += 1.0 * example.predictedRelation / predProbSteps;
 			}
 			example.predProb = predProb;
-			arr = probIndexMap.get(predictedNodeObservedNodeMatrix);
+			arr = probIndexMap.get(predProb);
 			if (arr != null) {
 				arr.add(i);
 			} else {

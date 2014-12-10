@@ -101,7 +101,7 @@ public class GeneralRelationExtractor {
 	public static int samplingGap = 5;
 	public static int emBurnInSteps = 50;
 	public static int maxEStep = 20;
-	public static int maxMStep = 10000;
+	public static int maxMStep = 100;
 	public static double expectationTerminalPercentage = 0.01;
 	public static double maximizationTerminalPercentage = 0.01;
 
@@ -124,7 +124,7 @@ public class GeneralRelationExtractor {
 	 * second increasing phase, 4: closing phase, 5: ...
 	 */
 	public static int maxPhase;
-	public static double predObEqualityInitVal = 3;
+	public static double predObEqualityInitVal = 4;
 	public static double predObDiffInitVal = 1;
 
 	public static void main(String[] args) throws Exception {

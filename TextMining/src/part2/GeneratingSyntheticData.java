@@ -45,23 +45,37 @@ public class GeneratingSyntheticData {
 		 * @param keyWordsSize
 		 *            : 10
 		 */
-//		new GeneratingSyntheticData("synthetic10", 20, 10000, 50, 3, 3, 0.5, 0.8,
-//				2);
-
 		/**
 		 * 
-		 * @param testFName
-		 * @param dictSize
-		 * @param leftWordsSize
-		 * @param rightWordsSize
-		 * @param keyWordsSize
-		 * @param subChainLength
+		 * @param fName: synthetic#
+		 * @param dictSize: 20
+		 * @param docSize: 1000
+		 * @param sampleInterval: 50
+		 * @param leftWordsSize: # of words before left key word 3
+		 * @param rightWordsSize: # of words after right key word 3
+		 * @param relationProb: probability of on sample being positive 0.5
+		 * @param wordsChangePercent: percentage of words between key words being changed to key words
+		 * @param keyWordsSize: # of key words in dict
+		 * @throws Exception
+		 */
+		new GeneratingSyntheticData("synthetic12", 20, 1000, 50, 3, 3, 0.5,
+				1, 2);
+		/**
+		 * 
+		 * @param testFName: synthetic#_test
+		 * @param dictSize: 20
+		 * @param leftWordsSize: # of words before left key word 3
+		 * @param rightWordsSize: # of words after right key word 3
+		 * @param keyWordsSize: # of key words in dict
+		 * @param subChainLength: used, could be any number
+		 * @param sizeForEachType: number of samples for each type
+		 * @param sampleInterval: 50
 		 * @throws Exception
 		 */
 
-		 GeneratingSyntheticData g = new GeneratingSyntheticData();
-		 g.GeneratingSyntheticTestingExamples("synthetic10_test", 20, 3, 3, 2,
-		 10, 2 * 8);
+//		GeneratingSyntheticData g = new GeneratingSyntheticData();
+//		g.GeneratingSyntheticTestingExamples("synthetic11_test", 20, 3, 3, 2,
+//				10, 2 * 8, 50);
 
 	}
 
@@ -179,19 +193,22 @@ public class GeneratingSyntheticData {
 
 	}
 
-	/**
-	 * 
-	 * @param testFName
-	 * @param dictSize
-	 * @param leftWordsSize
-	 * @param rightWordsSize
-	 * @param keyWordsSize
-	 * @param subChainLength
-	 * @throws Exception
-	 */
+/**
+ * 
+ * @param testFName
+ * @param dictSize
+ * @param leftWordsSize
+ * @param rightWordsSize
+ * @param keyWordsSize
+ * @param subChainLength
+ * @param sizeForEachType
+ * @param sampleInterval
+ * @throws Exception
+ */
 	private void GeneratingSyntheticTestingExamples(String testFName,
 			int dictSize, int leftWordsSize, int rightWordsSize,
-			int keyWordsSize, int subChainLength, int sizeForEachType) throws Exception {
+			int keyWordsSize, int subChainLength, int sizeForEachType,
+			int sampleInterval) throws Exception {
 		BufferedWriter bw = new BufferedWriter(new FileWriter(testFName));
 		int[] singletons = new int[dictSize];
 		double[] probabilities = new double[dictSize];
@@ -221,31 +238,31 @@ public class GeneratingSyntheticData {
 		int top1Bot1Uniform = initialSize, top1Bot1Random = initialSize;
 
 		// top 0 bottom 0 examples
-		addTestingSamples(top0Bot0Uniform, bw, dictDist, leftWordsSize,
-				rightWordsSize, keyWordsSize, subChainLength, true,
-				keyWordsDist, 0, true);
+		// addTestingSamples(top0Bot0Uniform, bw, dictDist, leftWordsSize,
+		// rightWordsSize, keyWordsSize, subChainLength, true,
+		// keyWordsDist, 0, true);
 
 		addTestingSamples(top0Bot0Random, bw, dictDist, leftWordsSize,
 				rightWordsSize, keyWordsSize, subChainLength, false,
-				keyWordsDist, 0, true);
+				keyWordsDist, 0, true, sampleInterval);
 
 		// top 1 bottom 0 examples
-		addTestingSamples(top1Bot0Uniform, bw, dictDist, leftWordsSize,
-				rightWordsSize, keyWordsSize, subChainLength, true,
-				keyWordsDist, 1, true);
+		// addTestingSamples(top1Bot0Uniform, bw, dictDist, leftWordsSize,
+		// rightWordsSize, keyWordsSize, subChainLength, true,
+		// keyWordsDist, 1, true);
 
 		addTestingSamples(top1Bot0Random, bw, dictDist, leftWordsSize,
 				rightWordsSize, keyWordsSize, subChainLength, false,
-				keyWordsDist, 1, true);
+				keyWordsDist, 1, true, sampleInterval);
 
 		// top 0 bottom 1 examples
 		/**
 		 * Generating testing examples of type 1. Type 1 is like this "165 391
 		 * 926 1 1 1 1 1 1 1 1 1 1 310 28 577 0 10 19"
 		 */
-		addTestingSamples(top0Bot1Uniform, bw, dictDist, leftWordsSize,
-				rightWordsSize, keyWordsSize, subChainLength, true,
-				keyWordsDist, 0, false);
+		// addTestingSamples(top0Bot1Uniform, bw, dictDist, leftWordsSize,
+		// rightWordsSize, keyWordsSize, subChainLength, true,
+		// keyWordsDist, 0, false);
 
 		/**
 		 * Generating testing examples of type 1. Type 2: words in between word1
@@ -253,16 +270,16 @@ public class GeneratingSyntheticData {
 		 */
 		addTestingSamples(top0Bot1Random, bw, dictDist, leftWordsSize,
 				rightWordsSize, keyWordsSize, subChainLength, false,
-				keyWordsDist, 0, false);
+				keyWordsDist, 0, false, sampleInterval);
 
 		// top 1 bottom 1 examples
-		addTestingSamples(top1Bot1Uniform, bw, dictDist, leftWordsSize,
-				rightWordsSize, keyWordsSize, subChainLength, true,
-				keyWordsDist, 1, false);
+		// addTestingSamples(top1Bot1Uniform, bw, dictDist, leftWordsSize,
+		// rightWordsSize, keyWordsSize, subChainLength, true,
+		// keyWordsDist, 1, false);
 
 		addTestingSamples(top1Bot1Random, bw, dictDist, leftWordsSize,
 				rightWordsSize, keyWordsSize, subChainLength, false,
-				keyWordsDist, 1, false);
+				keyWordsDist, 1, false, sampleInterval);
 
 		bw.close();
 	}
@@ -271,13 +288,26 @@ public class GeneratingSyntheticData {
 			EnumeratedIntegerDistribution dictDist, int leftWordsSize,
 			int rightWordsSize, int keyWordsSize, int keywordChainLength,
 			boolean isUniform, EnumeratedIntegerDistribution keyWordsDist,
-			int observationVal, boolean isRandomChain) throws Exception {
+			int observationVal, boolean isRandomChain, int sampleInterval)
+			throws Exception {
 
+		EnumeratedIntegerDistribution intervalSizeDist;
+		int trimmedIntervalSize = sampleInterval - leftWordsSize - rightWordsSize - 2;
+		int[] singletons = new int[trimmedIntervalSize];
+		double[] probabilities = new double[trimmedIntervalSize];
+		int index = 0;
+		for (int i = 1; i <= trimmedIntervalSize; i++) {
+			singletons[i-1] = i;
+			probabilities[i-1] = 1.0 / trimmedIntervalSize;
+		}
+		intervalSizeDist = new EnumeratedIntegerDistribution(singletons, probabilities);
+		
 		for (int i = 0; i < testSamplesSize; i++) {
 			for (int j = 0; j < leftWordsSize + 1; j++) {
 				bw.write("" + dictDist.sample() + " ");
 			}
-
+			
+			keywordChainLength = intervalSizeDist.sample();
 			for (int j = 0; j < keywordChainLength; j++) {
 				if (!isRandomChain) {
 					if (isUniform)

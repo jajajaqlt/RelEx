@@ -128,6 +128,7 @@ public class GeneralRelationExtractor {
 	public static double predObDiffInitVal = 1;
 
 	public static void main(String[] args) throws Exception {
+		long startTime = System.currentTimeMillis() / 1000;
 
 		ArrayList<TrainingExample> examples = new ArrayList<TrainingExample>();
 
@@ -377,6 +378,10 @@ public class GeneralRelationExtractor {
 		System.out.println("AUC is " + AUC);
 		// System.out.println("Final newly found relation.");
 		// printNewlyFoundRelation(temp);
+
+		long endTime = System.currentTimeMillis() / 1000;
+		System.out
+				.println("Total time used is: " + (endTime - startTime) + "s");
 
 	}
 
@@ -1803,10 +1808,21 @@ public class GeneralRelationExtractor {
 		double sum = 0;
 		for (int i = 0; i < exponents.length; i++) {
 			if (exponents[i] - max > -20)
-				sum += Math.exp(exponents[i] - max);
+				// sum += Math.exp(exponents[i] - max);
+				sum += exp(exponents[i] - max);
 		}
-		equivalent = max + Math.log(sum);
+		// equivalent = max + Math.log(sum);
+		equivalent = max + log(sum);
 		return equivalent;
+	}
+
+	public static double exp(double val) {
+		final long tmp = (long) (1512775 * val + 1072632447);
+		return Double.longBitsToDouble(tmp << 32);
+	}
+
+	public static double log(double x) {
+		return 6 * (x - 1) / (x + 1 + 4 * (Math.sqrt(x)));
 	}
 
 	/**

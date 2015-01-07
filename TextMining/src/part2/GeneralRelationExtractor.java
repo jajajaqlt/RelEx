@@ -1808,11 +1808,11 @@ public class GeneralRelationExtractor {
 		double sum = 0;
 		for (int i = 0; i < exponents.length; i++) {
 			if (exponents[i] - max > -20)
-				// sum += Math.exp(exponents[i] - max);
-				sum += exp(exponents[i] - max);
+				sum += Math.exp(exponents[i] - max);
+				// sum += exp(exponents[i] - max);
 		}
-		// equivalent = max + Math.log(sum);
-		equivalent = max + log(sum);
+		equivalent = max + Math.log(sum);
+		// equivalent = max + log(sum);
 		return equivalent;
 	}
 

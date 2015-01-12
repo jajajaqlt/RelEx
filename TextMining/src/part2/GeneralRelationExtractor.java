@@ -1801,18 +1801,23 @@ public class GeneralRelationExtractor {
 	}
 
 	private static double computeEquivalentExponent(double[] exponents) {
+		long tmp = 0;
 		double equivalent;
 		double max = maximum(exponents);
 		if (max == Double.NEGATIVE_INFINITY)
 			return Double.NEGATIVE_INFINITY;
 		double sum = 0;
 		for (int i = 0; i < exponents.length; i++) {
-			if (exponents[i] - max > -20)
-				sum += Math.exp(exponents[i] - max);
+			if (exponents[i] - max > -20) {
+				// sum += Math.exp(exponents[i] - max);
 				// sum += exp(exponents[i] - max);
+				tmp = (long) (1512775 * (exponents[i] - max) + 1072632447);
+				sum += Double.longBitsToDouble(tmp << 32);
+			}
 		}
-		equivalent = max + Math.log(sum);
+		// equivalent = max + Math.log(sum);
 		// equivalent = max + log(sum);
+		equivalent = max + 6 * (sum - 1) / (sum + 1 + 4 * (Math.sqrt(sum)));
 		return equivalent;
 	}
 

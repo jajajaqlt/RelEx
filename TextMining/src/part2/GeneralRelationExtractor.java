@@ -90,7 +90,8 @@ public class GeneralRelationExtractor {
 	// Sets this flag to be true for normal case
 	public static boolean isThereEdgeBetweenLabels = true;
 	public static boolean isPredictionObservationWeightFixed = true;
-
+	public static boolean testing = false;
+	
 	/*
 	 * 
 	 * Algorithm parameters

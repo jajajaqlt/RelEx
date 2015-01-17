@@ -27,6 +27,7 @@ public class Test2 {
 		arr.add(ex);
 		assignDistinctWordIndicesField(arr);
 		System.out.println("Hello World");
+		System.out.println("Hello SJZ");
 	}
 
 	private static void assignDistinctWordIndicesField(

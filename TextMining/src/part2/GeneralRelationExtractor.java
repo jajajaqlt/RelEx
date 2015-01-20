@@ -91,7 +91,7 @@ public class GeneralRelationExtractor {
 	public static boolean isThereEdgeBetweenLabels = true;
 	public static boolean isPredictionObservationWeightFixed = true;
 	public static boolean testing = false;
-	
+
 	/*
 	 * 
 	 * Algorithm parameters
@@ -1804,7 +1804,13 @@ public class GeneralRelationExtractor {
 	private static double computeEquivalentExponent(double[] exponents) {
 		long tmp = 0;
 		double equivalent;
-		double max = maximum(exponents);
+		// double max = maximum(exponents);
+		double max;
+		max = exponents[0];
+		for (int i = 1; i < exponents.length; i++) {
+			if (exponents[i] > max)
+				max = exponents[i];
+		}
 		if (max == Double.NEGATIVE_INFINITY)
 			return Double.NEGATIVE_INFINITY;
 		double sum = 0;

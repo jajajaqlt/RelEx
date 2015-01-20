@@ -816,6 +816,10 @@ public class GeneralRelationExtractor {
 		int wordIndex;
 		double totalEquivalentExponent;
 
+		boolean wlFlag = flag.equals("wl");
+		boolean llFlag = flag.equals("ll");
+		boolean lpFlag = flag.equals("lp");
+
 		for (int pred = 0; pred < numOfPredictedValues; pred++) {
 			for (int pos = 0; pos < chainLength; pos++) {
 				wordIndex = example.wordIndices.get(pos);
@@ -824,9 +828,15 @@ public class GeneralRelationExtractor {
 						// succExponents[succ] = 0;
 						for (int prev = 0; prev < numOfAbstractLabels; prev++) {
 							// three edges here
-							if ((flag.equals("wl") && index1 == wordIndex && index2 == prev)
-									|| (flag.equals("ll") && index1 == prev && index2 == succ)
-									|| (flag.equals("lp") && index1 == prev && index2 == pred))
+							// if ((flag.equals("wl") && index1 == wordIndex &&
+							// index2 == prev)
+							// || (flag.equals("ll") && index1 == prev && index2
+							// == succ)
+							// || (flag.equals("lp") && index1 == prev && index2
+							// == pred))
+							if ((wlFlag && index1 == wordIndex && index2 == prev)
+									|| (llFlag && index1 == prev && index2 == succ)
+									|| (lpFlag && index1 == prev && index2 == pred))
 								prevExponents[prev] = wordIndexLabelIndexMatrix[wordIndex][prev]
 										+ labelIndexPredictedNodeMatrix[prev][pred]
 										+ labelIndexLabelIndexMatrix[prev][succ];
@@ -846,8 +856,12 @@ public class GeneralRelationExtractor {
 								+ labelIndexPredictedNodeMatrix[prev][pred]
 								+ temp[prev];
 						// the term using stored info
-						if ((flag.equals("wl") && index1 == wordIndex && index2 == prev)
-								|| (flag.equals("lp") && index1 == prev && index2 == pred))
+						// if ((flag.equals("wl") && index1 == wordIndex &&
+						// index2 == prev)
+						// || (flag.equals("lp") && index1 == prev && index2 ==
+						// pred))
+						if ((wlFlag && index1 == wordIndex && index2 == prev)
+								|| (lpFlag && index1 == prev && index2 == pred))
 							prevExponents2[2 * prev + 1] = wordIndexLabelIndexMatrix[wordIndex][prev]
 									+ labelIndexPredictedNodeMatrix[prev][pred];
 						else
@@ -870,9 +884,15 @@ public class GeneralRelationExtractor {
 									+ labelIndexLabelIndexMatrix[prev][succ]
 									+ temp[prev];
 							// the term using stored info
-							if ((flag.equals("wl") && index1 == wordIndex && index2 == prev)
-									|| (flag.equals("ll") && index1 == prev && index2 == succ)
-									|| (flag.equals("lp") && index1 == prev && index2 == pred))
+							// if ((flag.equals("wl") && index1 == wordIndex &&
+							// index2 == prev)
+							// || (flag.equals("ll") && index1 == prev && index2
+							// == succ)
+							// || (flag.equals("lp") && index1 == prev && index2
+							// == pred))
+							if ((wlFlag && index1 == wordIndex && index2 == prev)
+									|| (llFlag && index1 == prev && index2 == succ)
+									|| (lpFlag && index1 == prev && index2 == pred))
 								prevExponents2[2 * prev + 1] = wordIndexLabelIndexMatrix[wordIndex][prev]
 										+ labelIndexPredictedNodeMatrix[prev][pred]
 										+ labelIndexLabelIndexMatrix[prev][succ];

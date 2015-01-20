@@ -805,6 +805,10 @@ public class GeneralRelationExtractor {
 		}
 		double[] prevExponents = new double[numOfAbstractLabels];
 		double[] prevExponents2 = new double[2 * numOfAbstractLabels];
+		// for the last else statement, optimization purpose
+		double[][] prevExponents2_2d = new double[2 * numOfAbstractLabels][numOfAbstractLabels];
+		double[][] arr2 = new double[numOfAbstractLabels][numOfAbstractLabels * 2];
+
 		double[] succExponents = new double[numOfAbstractLabels];
 		double[] temp = new double[numOfAbstractLabels];
 		double[] chainEquivalentExponents = new double[numOfPredictedValues];
@@ -820,9 +824,13 @@ public class GeneralRelationExtractor {
 		boolean llFlag = flag.equals("ll");
 		boolean lpFlag = flag.equals("lp");
 
+		double[] computedEquivalentExponentsArray;
 		for (int pred = 0; pred < numOfPredictedValues; pred++) {
 			for (int pos = 0; pos < chainLength; pos++) {
 				wordIndex = example.wordIndices.get(pos);
+				// for optimization purpose
+				double[] wordIndexArray = wordIndexLabelIndexMatrix[wordIndex];				
+
 				if (pos == 0) {
 					for (int succ = 0; succ < numOfAbstractLabels; succ++) {
 						// succExponents[succ] = 0;
@@ -871,37 +879,80 @@ public class GeneralRelationExtractor {
 					chainEquivalentExponents[pred] = computeEquivalentExponent(prevExponents2);
 				} else {
 					// positions in the middle
+					// "pos" & "pred" are parameters of outer loops
+
 					for (int i = 0; i < numOfAbstractLabels; i++) {
 						temp[i] = succExponents[i];
 					}
 
-					for (int succ = 0; succ < numOfAbstractLabels; succ++) {
-						// succExponents[succ] = 0;
-						for (int prev = 0; prev < numOfAbstractLabels; prev++) {
+					// for (int succ = 0; succ < numOfAbstractLabels; succ++) {
+					// // succExponents[succ] = 0;
+					// for (int prev = 0; prev < numOfAbstractLabels; prev++) {
+					// // the term using temp[i]
+					// prevExponents2[2 * prev] =
+					// wordIndexLabelIndexMatrix[wordIndex][prev]
+					// + labelIndexPredictedNodeMatrix[prev][pred]
+					// + labelIndexLabelIndexMatrix[prev][succ]
+					// + temp[prev];
+					// // the term using stored info
+					// // if ((flag.equals("wl") && index1 == wordIndex &&
+					// // index2 == prev)
+					// // || (flag.equals("ll") && index1 == prev && index2
+					// // == succ)
+					// // || (flag.equals("lp") && index1 == prev && index2
+					// // == pred))
+					// if ((wlFlag && index1 == wordIndex && index2 == prev)
+					// || (llFlag && index1 == prev && index2 == succ)
+					// || (lpFlag && index1 == prev && index2 == pred))
+					// prevExponents2[2 * prev + 1] =
+					// wordIndexLabelIndexMatrix[wordIndex][prev]
+					// + labelIndexPredictedNodeMatrix[prev][pred]
+					// + labelIndexLabelIndexMatrix[prev][succ];
+					// else
+					// prevExponents2[2 * prev + 1] = Double.NEGATIVE_INFINITY;
+					// prevExponents2[2 * prev + 1] +=
+					// computedEquivalentExponents[pred][pos - 1][prev];
+					// }
+					// succExponents[succ] =
+					// computeEquivalentExponent(prevExponents2);
+					// }
+
+					computedEquivalentExponentsArray = computedEquivalentExponents[pred][pos - 1];
+					
+					for (int prev = 0; prev < numOfAbstractLabels; prev++) {
+						for (int succ = 0; succ < numOfAbstractLabels; succ++) {
+							// succExponents[succ] = 0;
+
 							// the term using temp[i]
-							prevExponents2[2 * prev] = wordIndexLabelIndexMatrix[wordIndex][prev]
+							prevExponents2_2d[2 * prev][succ] = wordIndexArray[prev]
 									+ labelIndexPredictedNodeMatrix[prev][pred]
 									+ labelIndexLabelIndexMatrix[prev][succ]
 									+ temp[prev];
-							// the term using stored info
-							// if ((flag.equals("wl") && index1 == wordIndex &&
-							// index2 == prev)
-							// || (flag.equals("ll") && index1 == prev && index2
-							// == succ)
-							// || (flag.equals("lp") && index1 == prev && index2
-							// == pred))
 							if ((wlFlag && index1 == wordIndex && index2 == prev)
 									|| (llFlag && index1 == prev && index2 == succ)
 									|| (lpFlag && index1 == prev && index2 == pred))
-								prevExponents2[2 * prev + 1] = wordIndexLabelIndexMatrix[wordIndex][prev]
+								prevExponents2_2d[2 * prev + 1][succ] = wordIndexLabelIndexMatrix[wordIndex][prev]
 										+ labelIndexPredictedNodeMatrix[prev][pred]
 										+ labelIndexLabelIndexMatrix[prev][succ];
 							else
-								prevExponents2[2 * prev + 1] = Double.NEGATIVE_INFINITY;
-							prevExponents2[2 * prev + 1] += computedEquivalentExponents[pred][pos - 1][prev];
+								prevExponents2_2d[2 * prev + 1][succ] = Double.NEGATIVE_INFINITY;
+							prevExponents2_2d[2 * prev + 1][succ] += computedEquivalentExponentsArray[prev];
 						}
-						succExponents[succ] = computeEquivalentExponent(prevExponents2);
 					}
+					// succExponents[succ] =
+					// computeEquivalentExponent(prevExponents2);
+
+					for (int i = 0; i < 2 * numOfAbstractLabels; i++) {
+						final double[] arr = prevExponents2_2d[i];
+						for (int j = 0; j < numOfAbstractLabels; j++) {
+							arr2[j][i] = arr[j];
+						}
+					}
+
+					for (int i = 0; i < numOfAbstractLabels; i++) {
+						succExponents[i] = computeEquivalentExponent(arr2[i]);
+					}
+
 				}
 			}
 			// ****************************************************************************//

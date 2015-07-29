@@ -4,12 +4,12 @@
 	<classpathentry kind="src" path="git_utsapi2_0ws2_0"/>
 	<classpathentry kind="src" path="git_metamap_code"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/commons-lang3-3.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/commons-lang3-3.3.2-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/commons-math3-3.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/commons-math3-3.3-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/lvg2014dist.jar"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/metamap-api-1.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:/Users/letaoqi/git/RelEx/TextMining/Jars/prologbeans.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/commons-lang3-3.3.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/commons-math3-3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/commons-math3-3.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/lvg2014dist.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/metamap-api-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Research/workspace/Git_repositories/RelEx_Model/RelEx/TextMining/Jars/prologbeans.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

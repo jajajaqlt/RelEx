@@ -38,20 +38,20 @@ public class Test4 {
 			ex.wordIndices.add(0);
 			ex.labels.add(0);
 		}
-		boolean isObservationFixed = false;
-		
+		boolean isObservationFixed = true;
+
 		testComputePartitionFunctionEquivalentExponent(ex, isObservationFixed);
 		computePartitionFunctionEquivalentExponent(ex, isObservationFixed);
 
-//		String flag = "po";
-//		int index1 = 0, index2 = 0;
-//		// ex.observedRelation = 0;
-//		// computePartitionFunctionEquivalentExponent(ex);
-//		System.out
-//				.println(computePartitionFunctionDerivativeEquivalentExponent(
-//						ex, flag, index1, index2));
-//		testComputePartitionFunctionDerivativeEquivalentExponent(ex, flag,
-//				index1, index2);
+		String flag = "ll";
+		int index1 = 1, index2 = 0;
+		// ex.observedRelation = 0;
+		// computePartitionFunctionEquivalentExponent(ex);
+		System.out
+				.println(computePartitionFunctionDerivativeEquivalentExponent(
+						ex, flag, index1, index2, isObservationFixed));
+		testComputePartitionFunctionDerivativeEquivalentExponent(ex, flag,
+				index1, index2, isObservationFixed);
 
 		// length = 3;
 		// // ex.chainLength = length;
@@ -138,14 +138,67 @@ public class Test4 {
 	 * Changes to include observation as a variable.
 	 */
 	public static void testComputePartitionFunctionDerivativeEquivalentExponent(
-			TrainingExample example, String flag, int index1, int index2) {
+			TrainingExample example, String flag, int index1, int index2,
+			boolean isObservationFixed) {
 		// brute force here to compare, set chain length 3
 		ArrayList<Integer> wordIndices = example.wordIndices;
 		double total = 0;
 		int count;
 		int w1 = wordIndices.get(0), w2 = wordIndices.get(1), w3 = wordIndices
 				.get(2);
-		for (int ob = 0; ob < numOfObservedValues; ob++) {
+		if (!isObservationFixed) {
+			for (int ob = 0; ob < numOfObservedValues; ob++) {
+				for (int pred = 0; pred < numOfPredictedValues; pred++) {
+					// outermost 1
+					for (int o1 = 0; o1 < numOfAbstractLabels; o1++) {
+						for (int o2 = 0; o2 < numOfAbstractLabels; o2++) {
+							for (int o3 = 0; o3 < numOfAbstractLabels; o3++) {
+								count = 0;
+								if (flag.equals("wl")) {
+									if (w1 == index1 && o1 == index2)
+										count++;
+									if (w2 == index1 && o2 == index2)
+										count++;
+									if (w3 == index1 && o3 == index2)
+										count++;
+								} else if (flag.equals("ll")) {
+									if (o1 == index1 && o2 == index2)
+										count++;
+									if (o2 == index1 && o3 == index2)
+										count++;
+								} else if (flag.equals("lp")) {
+									if (o1 == index1 && pred == index2)
+										count++;
+									if (o2 == index1 && pred == index2)
+										count++;
+									if (o3 == index1 && pred == index2)
+										count++;
+								} else if (flag.equals("po")) {
+									// if (pred == index1
+									// && example.observedRelation == index2)
+									// count++;
+									if (pred == index1 && ob == index2)
+										count++;
+								}
+								total += Math
+										.exp(wordIndexLabelIndexMatrix[w1][o1]
+												+ wordIndexLabelIndexMatrix[w2][o2]
+												+ wordIndexLabelIndexMatrix[w3][o3]
+												+ labelIndexLabelIndexMatrix[o1][o2]
+												+ labelIndexLabelIndexMatrix[o2][o3]
+												+ labelIndexPredictedNodeMatrix[o1][pred]
+												+ labelIndexPredictedNodeMatrix[o2][pred]
+												+ labelIndexPredictedNodeMatrix[o3][pred]
+												+ predictedNodeObservedNodeMatrix[pred][ob])
+										* count;
+							}
+						}
+					}
+				}
+			}
+		} else {
+			// for (int ob = 0; ob < numOfObservedValues; ob++) {
+			int ob = example.observedRelation;
 			for (int pred = 0; pred < numOfPredictedValues; pred++) {
 				// outermost 1
 				for (int o1 = 0; o1 < numOfAbstractLabels; o1++) {
@@ -193,6 +246,7 @@ public class Test4 {
 					}
 				}
 			}
+			// }
 		}
 
 		double bruteForceEquivalent = Math.log(total);
@@ -330,7 +384,8 @@ public class Test4 {
 	 * Changes to include observation as a variable
 	 */
 	private static double computePartitionFunctionDerivativeEquivalentExponent(
-			TrainingExample example, String flag, int index1, int index2) {
+			TrainingExample example, String flag, int index1, int index2,
+			boolean isObservationFixed) {
 		ArrayList<Integer> wordIndices = example.wordIndices;
 		int chainLength = wordIndices.size();
 		// basically, doesn't allow chain of one node
@@ -347,8 +402,13 @@ public class Test4 {
 		double[] temp = new double[numOfAbstractLabels];
 		double[] chainEquivalentExponents = new double[numOfPredictedValues];
 		// ****************************************************************************//
-		double[] chainPredEquivalentExponents2 = new double[2
-				* numOfPredictedValues * numOfObservedValues];
+		double[] chainPredEquivalentExponents2;
+		if (!isObservationFixed) {
+			chainPredEquivalentExponents2 = new double[2 * numOfPredictedValues
+					* numOfObservedValues];
+		} else {
+			chainPredEquivalentExponents2 = new double[2 * numOfPredictedValues];
+		}
 		// ****************************************************************************//
 
 		int wordIndex;
@@ -490,18 +550,31 @@ public class Test4 {
 				}
 			}
 			// ****************************************************************************//
-			for (int ob = 0; ob < numOfObservedValues; ob++) {
+			if (!isObservationFixed) {
+				for (int ob = 0; ob < numOfObservedValues; ob++) {
+					// term using info just computed
+					chainPredEquivalentExponents2[pred * 4 + ob * 2] = chainEquivalentExponents[pred]
+							+ predictedNodeObservedNodeMatrix[pred][ob];
+					// term using stored info
+					if (flag.equals("po") && index1 == pred && index2 == ob)
+						chainPredEquivalentExponents2[pred * 4 + ob * 2 + 1] = predictedNodeObservedNodeMatrix[pred][ob];
+					else
+						chainPredEquivalentExponents2[pred * 4 + ob * 2 + 1] = Double.NEGATIVE_INFINITY;
+					chainPredEquivalentExponents2[pred * 4 + ob * 2 + 1] += computedEquivalentExponentsWithPredictionAsParam[pred];
+				}
+			} else {
+				int ob = example.observedRelation;
 				// term using info just computed
-				chainPredEquivalentExponents2[pred * 4 + ob * 2] = chainEquivalentExponents[pred]
+				chainPredEquivalentExponents2[pred * 2] = chainEquivalentExponents[pred]
 						+ predictedNodeObservedNodeMatrix[pred][ob];
 				// term using stored info
-				if (flag.equals("po") && index1 == pred
-						&& index2 == example.observedRelation)
-					chainPredEquivalentExponents2[pred * 4 + ob * 2 + 1] = predictedNodeObservedNodeMatrix[pred][ob];
+				if (flag.equals("po") && index1 == pred && index2 == ob)
+					chainPredEquivalentExponents2[pred * 2 + 1] = predictedNodeObservedNodeMatrix[pred][ob];
 				else
-					chainPredEquivalentExponents2[pred * 4 + ob * 2 + 1] = Double.NEGATIVE_INFINITY;
-				chainPredEquivalentExponents2[pred * 4 + ob * 2 + 1] += computedEquivalentExponentsWithPredictionAsParam[pred];
+					chainPredEquivalentExponents2[pred * 2 + 1] = Double.NEGATIVE_INFINITY;
+				chainPredEquivalentExponents2[pred * 2 + 1] += computedEquivalentExponentsWithPredictionAsParam[pred];
 			}
+
 			// ****************************************************************************//
 
 			// for (int ob = 0; ob < numOfObservedValues; ob++) {
